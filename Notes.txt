@@ -1,0 +1,2 @@
+1-12-25
+In input actions editor there is a flag for initial state check, see if this allows you to continue moving/firing if you hold the key and unpause.
