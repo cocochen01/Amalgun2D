@@ -11,7 +11,7 @@ namespace Amalgun2D.Player
         private PlayerInputActions.UIActions uiActions;
         private PlayerMovement playerMovementScript;
 
-		private Vector2 movementInput;
+		public Vector2 movementInput;
 
         private void Awake()
         {
@@ -27,6 +27,7 @@ namespace Amalgun2D.Player
 
             // playerMovement.[action].performed += context => do something
             playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
+            playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
 
             playerActions.Enable();
         }
