@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Unity.Netcode;
 
 namespace Amalgun2D.Player
 {
-	public class PlayerInputManager : NetworkBehaviour
+	public class PlayerInputManager : MonoBehaviour
     {
         private PlayerInputActions inputActions;
         private PlayerInputActions.PlayerActions playerActions;
@@ -34,12 +33,10 @@ namespace Amalgun2D.Player
 
         private void OnEnable()
         {
-            if (!IsLocalPlayer) return;
             EnablePlayerActionMap();
         }
         private void OnDisable()
         {
-            if (!IsLocalPlayer) return;
             DisableAllActionMaps();
         }
 

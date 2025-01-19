@@ -1,9 +1,8 @@
 using UnityEngine;
-using Unity.Netcode;
 
 namespace Amalgun2D.Player
 {
-	public class PlayerMovement : NetworkBehaviour
+	public class PlayerMovement : MonoBehaviour
 	{
 		private Vector2 movementInput;
 		private Rigidbody2D rigidBody;
@@ -20,8 +19,6 @@ namespace Amalgun2D.Player
 
         private void FixedUpdate()
         {
-            if (!IsOwner)
-                return;
             HandleMovement();
         }
         public void SetMovementInput(Vector2 _movementInput)
