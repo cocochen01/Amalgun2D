@@ -30,7 +30,7 @@ namespace Amalgun2D.Player
             // playerMovement.[action].performed += context => do something
             playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
             playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
-            playerActions.Attack.performed += context => playerAttackScript.Attack();
+            playerActions.Attack.performed += context => playerAttackScript.AttackWithWeapon();
 
             playerActions.Enable();
         }
