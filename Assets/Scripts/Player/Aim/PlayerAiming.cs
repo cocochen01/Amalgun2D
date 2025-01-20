@@ -5,6 +5,7 @@ namespace Amalgun2D.Player
     public class PlayerAiming : MonoBehaviour
     {
         private Camera playerCamera;
+        public Vector3 mousePosition;
         private void Start()
         {
             playerCamera = Camera.main;
@@ -12,7 +13,7 @@ namespace Amalgun2D.Player
 
         private void Update()
         {
-            Vector3 mousePosition = playerCamera.ScreenToWorldPoint(Input.mousePosition);
+            mousePosition = playerCamera.ScreenToWorldPoint(Input.mousePosition);
 
             Vector3 direction = mousePosition - transform.position;
             direction.z = 0;
