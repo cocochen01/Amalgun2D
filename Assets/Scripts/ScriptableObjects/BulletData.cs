@@ -8,10 +8,16 @@ public class BulletData : ScriptableObject
     public GameObject bulletPrefab;
 
     [Header("Base")]
-    public float bulletSpeed;
-    public float bulletLifetime;
+    public float bulletMass = .05f;
+    public float bulletLifetime = 1f;
+
+    [Header("Size")]
+    public float bulletSize = .2f;
+    public bool enableCustomSizeCurve = false;
+    public AnimationCurve sizeCurve;
 
     [Header("Speed")]
+    public float bulletSpeed = 50f;
     public bool enableCustomSpeedCurve = false;
     public AnimationCurve speedCurve;
     //public Func<float, float> customSpeedFunction;
@@ -20,9 +26,11 @@ public class BulletData : ScriptableObject
     public bool enableOscillation = false;
     public float oscillationFrequency = 0f;
     public float oscillationAmplitude = 0f;
-    public Vector2 oscillationDirection = Vector2.up;
 
-    [Header("Recoil")]
-    public float recoilForce = 1f;
-    //public float recoilDuration = .4f;
+    [Header("Force")]
+    public float bulletForceModifer = .1f;
+    public float bulletForce
+    {
+        get { return bulletSpeed * bulletMass * bulletForceModifer; }
+    }
 }

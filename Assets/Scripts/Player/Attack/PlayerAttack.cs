@@ -17,7 +17,6 @@ namespace Amalgun2D.Player
                 // Make sure the first Child in Player is the Direction!!
                 gun.GetComponent<FireBullet>().SpawnBullet(gameObject, transform.GetChild(0));
             }
-            Debug.Log("Attack.");
 		}
 	} 
 }

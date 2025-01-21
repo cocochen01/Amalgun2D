@@ -14,9 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletName: 
   bulletPrefab: {fileID: 8802237333055511547, guid: 6bdfd33f52c49a649b257c60b81eb98f, type: 3}
-  bulletSpeed: 10
+  bulletMass: 0.05
   bulletLifetime: 1
-  enableCustomSpeedCurve: 1
+  bulletSize: 0.2
+  enableCustomSizeCurve: 0
+  sizeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 5
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bulletSpeed: 50
+  enableCustomSpeedCurve: 0
   speedCurve:
     serializedVersion: 2
     m_Curve:
@@ -41,9 +68,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  enableOscillation: 1
-  oscillationFrequency: 1
-  oscillationAmplitude: 1
-  oscillationDirection: {x: 0, y: 1}
-  recoilForce: 5
-  recoilDuration: 0.4
+  enableOscillation: 0
+  oscillationFrequency: 10
+  oscillationAmplitude: 10
+  bulletForceModifer: 0.1

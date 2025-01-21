@@ -42,13 +42,12 @@ namespace Amalgun2D.Attacks
             bulletBehavior.Initialize(bulletData, direction.right);
 
             // Recoil force to camera
-            impulseSource.m_ImpulseDefinition.m_ImpulseDuration = bulletData.recoilForce;  // Always make recoil duration same as force?
-            impulseSource.GenerateImpulse(direction.right * bulletData.recoilForce * .1f * SettingsManager.Instance.cameraShakeIntensity);
+            impulseSource.m_ImpulseDefinition.m_ImpulseDuration = bulletData.bulletForce;  // Always make recoil duration same as force?
+            impulseSource.GenerateImpulse(direction.right * bulletData.bulletForce * .1f * SettingsManager.Instance.cameraShakeIntensity);
 
             // Recoil force to player
-            playerMovementScript.AddRecoilForce(direction.right * -bulletData.recoilForce);
+            playerMovementScript.AddRecoilForce(direction.right * -bulletData.bulletForce);
 
-            Debug.Log("Bullet fired!");
         }
     } 
 }

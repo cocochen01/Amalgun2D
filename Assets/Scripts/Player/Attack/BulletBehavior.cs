@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Amalgun2D.Attacks
@@ -13,31 +14,39 @@ namespace Amalgun2D.Attacks
             bulletData = _bulletData;
             direction = _direction;
             rb = GetComponent<Rigidbody2D>();
-
+            if (bulletData.bulletPrefab == null)
+            {
+                Debug.LogWarning("Bullet prefab is null.");
+                Destroy(gameObject);
+                return;
+            }
             if (rb == null)
             {
-                Debug.LogError("Bullet prefab missing Rigidbody2D component.");
+                Debug.LogWarning("Bullet prefab missing Rigidbody2D component.");
                 Destroy(gameObject);
+                return;
             }
 
             Destroy(gameObject, bulletData.bulletLifetime);
             
             elapsedTime = 0f;
-            if (bulletData.bulletPrefab != null)
-            {
-                rb.linearVelocity = direction * bulletData.speedCurve.Evaluate(0);
-            }
+            rb.linearVelocity = direction * bulletData.speedCurve.Evaluate(0);
+            transform.localScale = new Vector3(bulletData.bulletSize, bulletData.bulletSize, 1f);
         }
 
         private void FixedUpdate()
         {
-            if (bulletData == null || rb == null)
-            {
-                return;
-            }
-            
             elapsedTime += Time.fixedDeltaTime;
 
+            // Bullet Size
+            float currentSize = bulletData.bulletSize;
+            if (bulletData.enableCustomSizeCurve && bulletData.sizeCurve != null)
+            {
+                currentSize = bulletData.bulletSize * bulletData.sizeCurve.Evaluate(elapsedTime);
+            }
+            transform.localScale = new Vector3(currentSize, currentSize, 1f);
+
+            // Bullet Speed
             float currentSpeed = bulletData.bulletSpeed;
             if (bulletData.enableCustomSpeedCurve && bulletData.speedCurve != null)
             {
@@ -48,7 +57,7 @@ namespace Amalgun2D.Attacks
             if (bulletData.enableOscillation)
             {
                 float oscillationOffset = Mathf.Sin(elapsedTime * bulletData.oscillationFrequency) * bulletData.oscillationAmplitude;
-                oscillation = bulletData.oscillationDirection.normalized * oscillationOffset;
+                oscillation = Vector2.Perpendicular(direction) * oscillationOffset;
             }
 
             rb.linearVelocity = (direction * currentSpeed) + oscillation;

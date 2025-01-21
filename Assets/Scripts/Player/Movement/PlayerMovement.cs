@@ -33,8 +33,7 @@ namespace Amalgun2D.Player
         private void HandleMovement()
         {
             Vector2 velocity = movementInput.normalized * moveSpeed;
-            rigidBody.linearVelocity = velocity + externalForce;
-            if (externalForce.sqrMagnitude > 0.01f)
+            if (externalForce.sqrMagnitude > .1f)
             {
                 externalForce = Vector2.Lerp(externalForce, Vector2.zero, externalForceDecayRate * Time.fixedDeltaTime);
             }
@@ -42,12 +41,12 @@ namespace Amalgun2D.Player
             {
                 externalForce = Vector2.zero;
             }
+            rigidBody.linearVelocity = velocity + externalForce;
         }
 
         public void AddRecoilForce(Vector2 force)
         {
             externalForce += force;
-
         }
 	}
 }
