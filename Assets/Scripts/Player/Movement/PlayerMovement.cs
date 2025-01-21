@@ -7,6 +7,10 @@ namespace Amalgun2D.Player
 		private Vector2 movementInput;
 		private Rigidbody2D rigidBody;
 
+        [SerializeField]
+        private Vector2 externalForce;
+        private float externalForceDecayRate = 5f;
+
 		[SerializeField]
 		private float moveSpeed = 5f;
 
@@ -26,10 +30,24 @@ namespace Amalgun2D.Player
 			movementInput = _movementInput;
 		}
 
-		private void HandleMovement()
+        private void HandleMovement()
         {
             Vector2 velocity = movementInput.normalized * moveSpeed;
-            rigidBody.linearVelocity = velocity;
+            rigidBody.linearVelocity = velocity + externalForce;
+            if (externalForce.sqrMagnitude > 0.01f)
+            {
+                externalForce = Vector2.Lerp(externalForce, Vector2.zero, externalForceDecayRate * Time.fixedDeltaTime);
+            }
+            else
+            {
+                externalForce = Vector2.zero;
+            }
+        }
+
+        public void AddRecoilForce(Vector2 force)
+        {
+            externalForce += force;
+
         }
 	}
 }

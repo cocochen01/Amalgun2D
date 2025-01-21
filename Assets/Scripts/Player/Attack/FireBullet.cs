@@ -1,5 +1,7 @@
 using UnityEngine;
 using Cinemachine;
+using Amalgun2D.Player;
+using Amalgun2D.Settings;
 
 namespace Amalgun2D.Attacks
 {
@@ -7,9 +9,6 @@ namespace Amalgun2D.Attacks
     {
         public BulletData bulletData;
         private CinemachineImpulseSource impulseSource;
-
-        private float recoilForce = .1f;
-        private float recoilDuration = .4f;
         private void Start()
         {
             if (bulletData == null)
@@ -24,9 +23,14 @@ namespace Amalgun2D.Attacks
             impulseSource = GetComponent<CinemachineImpulseSource>();
         }
 
-        public void SpawnBullet(Transform direction)
+        public void SpawnBullet(GameObject owningPlayer, Transform direction)
         {
-            Debug.Log("SpawnBullet.");
+            PlayerMovement playerMovementScript = owningPlayer.GetComponent<PlayerMovement>();
+            if (playerMovementScript == null)
+            {
+                Debug.LogWarning("Player does not have PlayerAttack script.");
+                return;
+            }
             if (bulletData == null || bulletData.bulletPrefab == null)
             {
                 Debug.LogError("BulletData or BulletPrefab is null.");
@@ -37,8 +41,12 @@ namespace Amalgun2D.Attacks
 
             bulletBehavior.Initialize(bulletData, direction.right);
 
-            impulseSource.m_ImpulseDefinition.m_ImpulseDuration = recoilDuration;
-            impulseSource.GenerateImpulse(direction.right * recoilForce);
+            // Recoil force to camera
+            impulseSource.m_ImpulseDefinition.m_ImpulseDuration = bulletData.recoilForce;  // Always make recoil duration same as force?
+            impulseSource.GenerateImpulse(direction.right * bulletData.recoilForce * .1f * SettingsManager.Instance.cameraShakeIntensity);
+
+            // Recoil force to player
+            playerMovementScript.AddRecoilForce(direction.right * -bulletData.recoilForce);
 
             Debug.Log("Bullet fired!");
         }

@@ -21,4 +21,8 @@ public class BulletData : ScriptableObject
     public float oscillationFrequency = 0f;
     public float oscillationAmplitude = 0f;
     public Vector2 oscillationDirection = Vector2.up;
+
+    [Header("Recoil")]
+    public float recoilForce = 1f;
+    //public float recoilDuration = .4f;
 }
