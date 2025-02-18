@@ -1,17 +1,17 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Unity.Netcode;
 
 namespace Amalgun2D.Player
 {
-	public class PlayerInputManager : NetworkBehaviour
+	public class PlayerInputManager : MonoBehaviour
     {
         private PlayerInputActions inputActions;
         private PlayerInputActions.PlayerActions playerActions;
         private PlayerInputActions.UIActions uiActions;
         private PlayerMovement playerMovementScript;
+        private PlayerAttack playerAttackScript;
 
-		private Vector2 movementInput;
+        public Vector2 movementInput;
 
         private void Awake()
         {
@@ -23,22 +23,24 @@ namespace Amalgun2D.Player
         private void Start()
         {
             playerMovementScript = GetComponent<PlayerMovement>();
-            if(playerMovementScript == null ) Debug.LogWarning("MovementScript not set in InputManager.");
+            if(playerMovementScript == null ) Debug.LogWarning("Movement script not set in InputManager.");
+            playerAttackScript = GetComponent<PlayerAttack>();
+            if (playerAttackScript == null) Debug.LogWarning("Attack script not set in InputManager.");
 
             // playerMovement.[action].performed += context => do something
             playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
+            playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
+            playerActions.Attack.performed += context => playerAttackScript.AttackWithWeapon();
 
             playerActions.Enable();
         }
 
         private void OnEnable()
         {
-            if (!IsLocalPlayer) return;
             EnablePlayerActionMap();
         }
         private void OnDisable()
         {
-            if (!IsLocalPlayer) return;
             DisableAllActionMaps();
         }
 

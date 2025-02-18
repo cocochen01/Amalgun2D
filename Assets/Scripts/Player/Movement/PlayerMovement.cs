@@ -1,12 +1,15 @@
 using UnityEngine;
-using Unity.Netcode;
 
 namespace Amalgun2D.Player
 {
-	public class PlayerMovement : NetworkBehaviour
+	public class PlayerMovement : MonoBehaviour
 	{
 		private Vector2 movementInput;
 		private Rigidbody2D rigidBody;
+
+        [SerializeField]
+        private Vector2 externalForce;
+        private float externalForceDecayRate = 5f;
 
 		[SerializeField]
 		private float moveSpeed = 5f;
@@ -20,8 +23,6 @@ namespace Amalgun2D.Player
 
         private void FixedUpdate()
         {
-            if (!IsOwner)
-                return;
             HandleMovement();
         }
         public void SetMovementInput(Vector2 _movementInput)
@@ -29,10 +30,23 @@ namespace Amalgun2D.Player
 			movementInput = _movementInput;
 		}
 
-		private void HandleMovement()
+        private void HandleMovement()
         {
             Vector2 velocity = movementInput.normalized * moveSpeed;
-            rigidBody.linearVelocity = velocity;
+            if (externalForce.sqrMagnitude > .1f)
+            {
+                externalForce = Vector2.Lerp(externalForce, Vector2.zero, externalForceDecayRate * Time.fixedDeltaTime);
+            }
+            else
+            {
+                externalForce = Vector2.zero;
+            }
+            rigidBody.linearVelocity = velocity + externalForce;
+        }
+
+        public void AddRecoilForce(Vector2 force)
+        {
+            externalForce += force;
         }
 	}
 }
