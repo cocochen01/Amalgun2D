@@ -1,4 +1,5 @@
 using UnityEngine;
+using Amalgun2D.Core;
 
 namespace Amalgun2D.Player
 {
@@ -21,14 +22,18 @@ namespace Amalgun2D.Player
                 Debug.LogWarning("Rigidbody component not found.");
         }
 
+        private void Start()
+        {
+            InputManager input = InputManager.Instance;
+            PlayerInputActions.PlayerActions playerActions = input.playerActions;
+            playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
+            playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
+        }
+
         private void FixedUpdate()
         {
             HandleMovement();
         }
-        public void SetMovementInput(Vector2 _movementInput)
-		{
-			movementInput = _movementInput;
-		}
 
         private void HandleMovement()
         {

@@ -46,7 +46,7 @@ namespace Amalgun2D.Player
 
         private void Update()
         {
-            playerMovementScript.SetMovementInput(movementInput);
+            //playerMovementScript.SetMovementInput(movementInput);
         }
 
         private void DisableAllActionMaps()
