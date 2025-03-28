@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Interactions;
-// not in use, handle attack input in weapons insteadz
+
 namespace Amalgun2D.Player
 {
 	public class PlayerAttack : MonoBehaviour
@@ -29,9 +29,11 @@ namespace Amalgun2D.Player
             gm = GameManager.Instance;
             InputManager input = InputManager.Instance;
             PlayerInputActions.PlayerActions playerActions = input.playerActions;
-            //playerActions.Attack.performed += AttackWithWeapon;
+            //Handle inputs in weapon class
+            //playerActions.Attack.started += StartedAttack;
+            //playerActions.Attack.performed += PerformedAttack;
             //playerActions.Attack.canceled += StopAttack;
-            
+
         }
 
         private void FixedUpdate()
@@ -40,7 +42,11 @@ namespace Amalgun2D.Player
             if (attackCDTimer > 0)
                 attackCDTimer -= Time.deltaTime;
         }
-        public void AttackWithWeapon(InputAction.CallbackContext context)
+        private void StartedAttack(InputAction.CallbackContext context)
+        {
+
+        }
+        public void PerformedAttack(InputAction.CallbackContext context)
 		{
             inputBufferTimer = GlobalValuesData.globalInputBuffer;
             bTryAttacking = true;
