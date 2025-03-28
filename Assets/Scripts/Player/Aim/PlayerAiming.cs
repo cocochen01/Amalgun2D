@@ -6,6 +6,10 @@ namespace Amalgun2D.Player
 {
     public class PlayerAiming : MonoBehaviour
     {
+        // References
+        private Camera playerCam;
+        private CinemachineFramingTransposer framingTransposer;
+
         public Vector3 mousePosition;
 
         private float cameraStretchFactor = .3f;
@@ -13,14 +17,14 @@ namespace Amalgun2D.Player
         private float maxOffsetX = 2f;
         private float maxOffsetY = 2f;
 
-        private CinemachineFramingTransposer framingTransposer;
         private void Start()
         {
+            playerCam = GameManager.Instance.playerCamera;
             framingTransposer = GameManager.Instance.virtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
         }
         private void Update()
         {
-            mousePosition = GameManager.Instance.playerCamera.ScreenToWorldPoint(Input.mousePosition);
+            mousePosition = playerCam.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = 0;
 
             Vector3 direction = mousePosition - transform.position;

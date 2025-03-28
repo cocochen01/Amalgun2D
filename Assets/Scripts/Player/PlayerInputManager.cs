@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+//Not in use, input is handled in actions script
 namespace Amalgun2D.Player
 {
 	public class PlayerInputManager : MonoBehaviour
@@ -28,9 +28,9 @@ namespace Amalgun2D.Player
             if (playerAttackScript == null) Debug.LogWarning("Attack script not set in InputManager.");
 
             // playerMovement.[action].performed += context => do something
-            playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
-            playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
-            playerActions.Attack.performed += context => playerAttackScript.AttackWithWeapon();
+            //playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
+            //playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
+            //playerActions.Attack.performed += context => playerAttackScript.AttackWithWeapon();
 
             playerActions.Enable();
         }
