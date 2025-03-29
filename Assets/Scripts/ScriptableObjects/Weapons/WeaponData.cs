@@ -1,9 +1,13 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "WeaponData", menuName = "Scriptable Objects/WeaponData")]
-public class WeaponData : ScriptableObject
+public abstract class WeaponData : ScriptableObject
 {
+    public WeaponType weaponType;
     public string weaponName;
-    public float damage;
-    public float attackRate;
+    public int damage;
+    public float chargeTime;
+    public float winddownTime;
 }
+
+public enum WeaponType { Gun, Melee }

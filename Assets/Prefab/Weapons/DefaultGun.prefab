@@ -134,6 +134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d541d8492a48cf74bb3897f253ea4627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bTryAttacking: 0
+  bCanAttack: 1
+  inputBufferTimer: 0
+  attackCDTimer: 0
+  gunData: {fileID: 11400000, guid: dc11e34873ad61e4c9027cd85c9d88ac, type: 2}
 --- !u!114 &4270109905388884961
 MonoBehaviour:
   m_ObjectHideFlags: 0

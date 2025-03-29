@@ -12,7 +12,9 @@ namespace Amalgun2D.Player
 
         public Vector3 mousePosition;
 
+        // Values
         private float cameraStretchFactor = .3f;
+        private float turnSpeed = 10f;
 
         private float maxOffsetX = 2f;
         private float maxOffsetY = 2f;
@@ -32,8 +34,10 @@ namespace Amalgun2D.Player
 
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-            transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            float targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            float smoothAngle = Mathf.LerpAngle(transform.eulerAngles.z, targetAngle, turnSpeed * Time.deltaTime);
 
+            transform.rotation = Quaternion.Euler(0f, 0f, smoothAngle);
         }
 
         private void LateUpdate()
@@ -43,5 +47,10 @@ namespace Amalgun2D.Player
             offset.y = Mathf.Clamp(offset.y, -maxOffsetY, maxOffsetY);
             framingTransposer.m_TrackedObjectOffset = new Vector3(offset.x, offset.y, 0);
         }
-    } 
+
+        public void UpdateTurnSpeed(float newTurnSpeed)
+        {
+            turnSpeed = newTurnSpeed;
+        }
+    }
 }
