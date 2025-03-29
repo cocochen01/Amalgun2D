@@ -234,7 +234,6 @@ GameObject:
   - component: {fileID: 4204104157350309334}
   - component: {fileID: 7129088368767003580}
   - component: {fileID: 3325833304478183439}
-  - component: {fileID: -8514316521977798700}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -443,26 +442,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &-8514316521977798700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9032433103125950315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9be2b4334d9ef8f47b2410a0299644fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapons: []
-  currWeapon: {fileID: 0}
-  bTryAttacking: 0
-  bCanAttack: 1
-  inputBufferTimer: 0
-  attackCDTimer: 0
-  tempAttackRate: 0.5
-  tempIsChargeWeapon: 0
 --- !u!1001 &3423731889587139391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -477,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6387514041044055943, guid: 056cba42a00acdb41af6720dc7d7a612, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6387514041044055943, guid: 056cba42a00acdb41af6720dc7d7a612, type: 3}
       propertyPath: m_LocalPosition.y

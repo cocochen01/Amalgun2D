@@ -4,5 +4,6 @@ using UnityEngine;
 public class GunData : WeaponData
 {
     public BulletData bulletData;
-    public float fireRate = 1f;
+    public float gunVisionRange = .3f;
+    public override float visionRange => gunVisionRange;
 }

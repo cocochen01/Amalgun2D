@@ -1,3 +1,4 @@
+#nullable enable
 using UnityEngine;
 using Amalgun2D.Core;
 using Cinemachine;
@@ -7,22 +8,36 @@ namespace Amalgun2D.Player
     public class PlayerAiming : MonoBehaviour
     {
         // References
-        private Camera playerCam;
-        private CinemachineFramingTransposer framingTransposer;
+        private Camera playerCam = null!;
+        private CinemachineFramingTransposer framingTransposer = null!;
+
+        // Weapon Data Values
+        private float turnSpeed;
+        private float cameraStretchFactor;
+
+        // Default Values
+        private float defaultTurnSpeed = 10f;
+        private float defaultCameraStretchFactor = .3f;
+        private float maxOffsetX = 2f;
+        private float maxOffsetY = 2f;
 
         public Vector3 mousePosition;
 
-        // Values
-        private float cameraStretchFactor = .3f;
-        private float turnSpeed = 10f;
-
-        private float maxOffsetX = 2f;
-        private float maxOffsetY = 2f;
+        private void OnEnable()
+        {
+            WeaponEquipEvent.Handler += UpdateWeaponData;
+        }
+        private void OnDisable()
+        {
+            WeaponEquipEvent.Handler -= UpdateWeaponData;
+        }
 
         private void Start()
         {
             playerCam = GameManager.Instance.playerCamera;
             framingTransposer = GameManager.Instance.virtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+            turnSpeed = defaultTurnSpeed;
+            cameraStretchFactor = defaultCameraStretchFactor;
         }
         private void Update()
         {
@@ -48,9 +63,10 @@ namespace Amalgun2D.Player
             framingTransposer.m_TrackedObjectOffset = new Vector3(offset.x, offset.y, 0);
         }
 
-        public void UpdateTurnSpeed(float newTurnSpeed)
+        public void UpdateWeaponData(WeaponEquipEvent e)
         {
-            turnSpeed = newTurnSpeed;
+            turnSpeed = e.WeaponData?.turnSpeed ?? defaultTurnSpeed;
+            cameraStretchFactor = e.WeaponData?.visionRange ?? defaultCameraStretchFactor;
         }
     }
 }
