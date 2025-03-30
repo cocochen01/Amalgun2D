@@ -65,8 +65,10 @@ namespace Amalgun2D.Player
 
         public void UpdateWeaponData(WeaponEquipEvent e)
         {
-            turnSpeed = e.WeaponData?.turnSpeed ?? defaultTurnSpeed;
-            cameraStretchFactor = e.WeaponData?.visionRange ?? defaultCameraStretchFactor;
+            WeaponData? weapon = e.WeaponObject?.GetComponent<Weapon>()?.weaponData;
+
+            turnSpeed = weapon?.turnSpeed ?? defaultTurnSpeed;
+            cameraStretchFactor = weapon?.visionRange ?? defaultCameraStretchFactor;
         }
     }
 }

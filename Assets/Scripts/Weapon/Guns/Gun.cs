@@ -1,6 +1,5 @@
 using Amalgun2D.Attacks;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Gun : Weapon
 {

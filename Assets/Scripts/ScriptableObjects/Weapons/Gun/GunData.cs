@@ -6,4 +6,5 @@ public class GunData : WeaponData
     public BulletData bulletData;
     public float gunVisionRange = .3f;
     public override float visionRange => gunVisionRange;
+    public int magazineSize;
 }

@@ -1,12 +1,12 @@
 #nullable enable
+using UnityEngine;
+
 public class WeaponEquipEvent : FWEvent<WeaponEquipEvent>
 {
-    public readonly WeaponData? WeaponData;
-    
-
-    public WeaponEquipEvent(WeaponData? weaponData)
+    public readonly GameObject? WeaponObject;
+    public WeaponEquipEvent(GameObject? weaponObject)
     {
-        WeaponData = weaponData;
+        WeaponObject = weaponObject;
     }
 }
 

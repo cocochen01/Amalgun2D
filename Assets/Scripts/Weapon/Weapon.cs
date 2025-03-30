@@ -6,7 +6,8 @@ public abstract class Weapon : MonoBehaviour
 {
     // References
     protected GameManager gm;
-    protected WeaponData weaponData;
+    public readonly WeaponData weaponData;
+    PlayerInputActions.PlayerActions playerActions;
 
     // Flags
     [SerializeField] protected bool bTryAttacking = false;
@@ -19,10 +20,19 @@ public abstract class Weapon : MonoBehaviour
     protected virtual void Start()
     {
         gm = GameManager.Instance;
-        InputManager input = InputManager.Instance;
-        PlayerInputActions.PlayerActions playerActions = input.playerActions;
+        playerActions = InputManager.Instance.playerActions;
+    }
+    protected virtual void Equip(PlayerCharacter player)
+    {
+        if (player == null)
+            return;
         playerActions.Attack.performed += PerformedAttack;
         playerActions.Attack.canceled += StopAttack;
+    }
+    protected virtual void Unequip()
+    {
+        playerActions.Attack.performed -= PerformedAttack;
+        playerActions.Attack.canceled -= StopAttack;
     }
     protected virtual void FixedUpdate()
     {
