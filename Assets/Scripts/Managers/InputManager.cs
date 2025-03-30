@@ -12,8 +12,8 @@ namespace Amalgun2D.Core
         public static InputManager Instance { get; private set; }
 
         private PlayerInputActions inputActions;
-        public PlayerInputActions.PlayerActions playerActions;
-        public PlayerInputActions.UIActions uiActions;
+        public PlayerInputActions.PlayerActions PlayerActions;
+        public PlayerInputActions.UIActions UIActions;
         private void Awake()
         {
             if (!Instance)
@@ -27,8 +27,8 @@ namespace Amalgun2D.Core
             }
 
             inputActions = new PlayerInputActions();
-            playerActions = inputActions.Player;
-            uiActions = inputActions.UI;
+            PlayerActions = inputActions.Player;
+            UIActions = inputActions.UI;
 
             // Do this in Game Loop later
             ToggleInputActionGroup(InputActionGroup.PlayerActions, true);
@@ -39,12 +39,12 @@ namespace Amalgun2D.Core
             switch (group)
             {
                 case InputActionGroup.PlayerActions:
-                    if (toggle) playerActions.Enable();
-                    else playerActions.Disable();
+                    if (toggle) PlayerActions.Enable();
+                    else PlayerActions.Disable();
                     break;
                 case InputActionGroup.UIActions:
-                    if (toggle) uiActions.Enable();
-                    else uiActions.Disable();
+                    if (toggle) UIActions.Enable();
+                    else UIActions.Disable();
                     break;
             }
         }

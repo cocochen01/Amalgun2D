@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 4420617754469423165}
   - component: {fileID: 4270109905388884961}
   - component: {fileID: 7145431025559723016}
+  - component: {fileID: 3165287656313342201}
   m_Layer: 0
   m_Name: DefaultGun
   m_TagString: Untagged
@@ -275,6 +276,18 @@ MonoBehaviour:
     m_DissipationDistance: 100
     m_PropagationSpeed: 343
   m_DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!114 &3165287656313342201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5479695457694883946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e76454d4e3e7f4a9d8bf602c6407fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7354001067057345952
 GameObject:
   m_ObjectHideFlags: 0

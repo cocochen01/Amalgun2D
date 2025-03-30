@@ -25,7 +25,7 @@ namespace Amalgun2D.Player
         private void Start()
         {
             InputManager input = InputManager.Instance;
-            PlayerInputActions.PlayerActions playerActions = input.playerActions;
+            PlayerInputActions.PlayerActions playerActions = input.PlayerActions;
             playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
             playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
         }

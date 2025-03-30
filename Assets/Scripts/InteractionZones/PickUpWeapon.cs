@@ -1,12 +1,17 @@
 using UnityEngine;
 
-public class PickUpWeapon : MonoBehaviour
+public class PickUpWeapon : Pickup
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected override void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
-        {
-            
-        }
+        base.OnTriggerEnter2D(collision);
+    }
+    public override void ShowPrompt()
+    {
+        base.ShowPrompt();
+    }
+    public override void HidePrompt()
+    {
+        base.HidePrompt();
     }
 }

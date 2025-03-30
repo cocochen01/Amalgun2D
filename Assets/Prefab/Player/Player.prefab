@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 1680920836924737985}
   - component: {fileID: 7129088368767003580}
   - component: {fileID: 3325833304478183439}
+  - component: {fileID: 860558452111107171}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -501,3 +502,15 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &860558452111107171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9032433103125950315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f0ab485917cf74489d4e56a78603ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

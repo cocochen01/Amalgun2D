@@ -20,7 +20,7 @@ public abstract class Weapon : MonoBehaviour
     protected virtual void Start()
     {
         gm = GameManager.Instance;
-        playerActions = InputManager.Instance.playerActions;
+        playerActions = InputManager.Instance.PlayerActions;
     }
     protected virtual void Equip(PlayerCharacter player)
     {
