@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletName: DefaultBullet
   bulletPrefab: {fileID: 8802237333055511547, guid: 6bdfd33f52c49a649b257c60b81eb98f, type: 3}
-  bulletMass: 0.05
+  bulletMass: 0.02
   bulletLifetime: 1
   bulletSize: 0.2
   enableCustomSizeCurve: 0
@@ -71,4 +71,3 @@ MonoBehaviour:
   enableOscillation: 0
   oscillationFrequency: 10
   oscillationAmplitude: 10
-  bulletForceModifer: 0.1

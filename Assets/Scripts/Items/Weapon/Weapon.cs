@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 public abstract class Weapon : MonoBehaviour
 {
     // References
-    protected GameManager gm;
-    public readonly WeaponData weaponData;
+    public PlayerCharacter owningPlayer = null;
+    public WeaponData weaponData;
     private InputAction playerActions;
 
     // Flags
@@ -20,20 +20,32 @@ public abstract class Weapon : MonoBehaviour
 
     protected virtual void Start()
     {
-        gm = GameManager.Instance;
     }
-    protected virtual void Equip(PlayerCharacter player)
+    public virtual void Equip(PlayerCharacter player)
     {
+        Debug.Log("Equip funtionc");
         if (player == null)
             return;
+        Debug.Log("Player is not null");
+        owningPlayer = player;
         playerActions = player.GetComponent<PlayerInput>().actions["Attack"];
         playerActions.performed += PerformedAttack;
         playerActions.canceled += StopAttack;
+        player.GetComponent<PlayerEventManager>().WeaponEquip(weaponData);
     }
-    protected virtual void Unequip()
+    public virtual void Unequip()
     {
+        owningPlayer = null;
         playerActions.performed -= PerformedAttack;
         playerActions.canceled -= StopAttack;
+    }
+    protected virtual void OnDisable()
+    {
+        if(playerActions != null)
+        {
+            playerActions.performed -= PerformedAttack;
+            playerActions.canceled -= StopAttack;
+        }
     }
     protected virtual void FixedUpdate()
     {

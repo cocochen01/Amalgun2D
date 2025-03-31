@@ -18,11 +18,11 @@ namespace Amalgun2D.Player
             onPickupExitRange?.Invoke(pickupObject);
         }
 
-        public delegate void OnWeaponEquip(GameObject? weaponObject);
+        public delegate void OnWeaponEquip(WeaponData? weaponData);
         public event OnWeaponEquip? onWeaponEquip;
-        public void WeaponEquip(GameObject? weaponObject)
+        public void WeaponEquip(WeaponData? weaponData)
         {
-            onWeaponEquip?.Invoke(weaponObject);
+            onWeaponEquip?.Invoke(weaponData);
         }
     }
 }

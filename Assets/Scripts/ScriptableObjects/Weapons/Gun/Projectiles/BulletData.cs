@@ -28,9 +28,8 @@ public class BulletData : ScriptableObject
     public float oscillationAmplitude = 0f;
 
     [Header("Force")]
-    public float bulletForceModifer = .1f;
     public float bulletForce
     {
-        get { return bulletSpeed * bulletMass * bulletForceModifer; }
+        get { return bulletSpeed * bulletMass; }
     }
 }

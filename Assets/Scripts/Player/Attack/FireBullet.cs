@@ -23,7 +23,7 @@ namespace Amalgun2D.Attacks
             impulseSource = GetComponent<CinemachineImpulseSource>();
         }
 
-        public void SpawnBullet(GameObject owningPlayer, Transform direction)
+        public void SpawnBullet(GameObject owningPlayer, Transform direction, float recoilMultiplier)
         {
             PlayerMovement playerMovementScript = owningPlayer.GetComponent<PlayerMovement>();
             if (playerMovementScript == null)
@@ -42,11 +42,11 @@ namespace Amalgun2D.Attacks
             bulletBehavior.Initialize(bulletData, direction.right);
 
             // Recoil force to camera
-            impulseSource.m_ImpulseDefinition.m_ImpulseDuration = bulletData.bulletForce;  // Always make recoil duration same as force?
-            impulseSource.GenerateImpulse(direction.right * bulletData.bulletForce * .1f * SettingsManager.Instance.cameraShakeIntensity);
+            impulseSource.m_ImpulseDefinition.m_ImpulseDuration = bulletData.bulletForce * recoilMultiplier * SettingsManager.Instance.cameraShakeIntensity * .1f;  // Recoil duration = impulse?
+            impulseSource.GenerateImpulse(direction.right * bulletData.bulletForce * recoilMultiplier * SettingsManager.Instance.cameraShakeIntensity * .1f);
 
             // Recoil force to player
-            playerMovementScript.AddRecoilForce(direction.right * -bulletData.bulletForce);
+            playerMovementScript.AddRecoilForce(-direction.right * bulletData.bulletForce * recoilMultiplier);
 
         }
     } 

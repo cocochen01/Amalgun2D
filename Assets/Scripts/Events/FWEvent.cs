@@ -6,7 +6,7 @@
 public abstract class FWEvent<T> where T : FWEvent<T>
 {
     public delegate void OnEvent(T e);
-    public event OnEvent? Handler;
+    public static event OnEvent? Handler;
 
     public void Invoke()
     {

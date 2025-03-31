@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 2277068433279302271}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 8
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 7395961333507487840}
   - component: {fileID: 4133972547249974639}
   m_Layer: 12
-  m_Name: Weapons
+  m_Name: WeaponAttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,8 +315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 652c5b00781f3614e92afad89e1ee0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WeaponsAttachPoint: {fileID: 0}
   weaponsList: []
-  WeaponsParent: {fileID: 0}
 --- !u!1 &3076264992101421603
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_UpdateMethod: 2
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
-    m_Style: 1
+    m_Style: 3
     m_Time: 2
     m_CustomCurve:
       serializedVersion: 2
@@ -580,8 +580,9 @@ GameObject:
   - component: {fileID: 51448939475049916}
   - component: {fileID: 1255327194763564186}
   - component: {fileID: 7129088368767003580}
-  - component: {fileID: 860558452111107171}
   - component: {fileID: 8674136299191211236}
+  - component: {fileID: 860558452111107171}
+  - component: {fileID: 8814035541226700321}
   m_Layer: 12
   m_Name: Player
   m_TagString: Player
@@ -686,7 +687,6 @@ MonoBehaviour:
   playerCamera: {fileID: 3653807211224786173}
   virtualCamera: {fileID: 586807382169363025}
   PlayerEvents: {fileID: 51448939475049916}
-  PlayerInputManager: {fileID: 0}
 --- !u!114 &51448939475049916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,6 +807,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   externalForce: {x: 0, y: 0}
   moveSpeed: 5
+--- !u!114 &8674136299191211236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9032433103125950315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192af791d5bc2e84388f12593ea7b41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 0
+  cameraStretchFactor: 0
+  mousePosition: {x: 0, y: 0, z: 0}
 --- !u!114 &860558452111107171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,7 +840,7 @@ MonoBehaviour:
   DetectionRadius: 2
   nearPickups: []
   currNearestPickup: {fileID: 0}
---- !u!114 &8674136299191211236
+--- !u!114 &8814035541226700321
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -834,7 +849,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 9032433103125950315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 192af791d5bc2e84388f12593ea7b41b, type: 3}
+  m_Script: {fileID: 11500000, guid: 652c5b00781f3614e92afad89e1ee0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mousePosition: {x: 0, y: 0, z: 0}
+  WeaponsAttachPoint: {fileID: 7395961333507487840}
+  weaponsList: []

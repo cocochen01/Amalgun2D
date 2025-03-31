@@ -2,7 +2,7 @@ using Cinemachine;
 using UnityEngine;
 
 namespace Amalgun2D.Core
-{
+{ // Not in use atm
     public class GameManager : MonoBehaviour
     {
         public static GameManager Instance { get; private set; }
