@@ -1,4 +1,5 @@
 using Amalgun2D.Core;
+using Amalgun2D.Player;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,6 +9,7 @@ public class PickUpInteraction : MonoBehaviour
 {
     // References
     private InputAction playerActions;
+    private PlayerEventManager playerEvents;
     [SerializeField] private LayerMask pickupMask;
 
     // Values
@@ -19,15 +21,22 @@ public class PickUpInteraction : MonoBehaviour
     private void Start()
     {
         playerActions = GetComponent<PlayerInput>().actions["Interact"];
+        playerEvents = GetComponent<PlayerEventManager>();
+
         playerActions.performed += InteractWithNearestPickupObject;
+        playerEvents.onPickupEnterRange += AddPickupObject;
+        playerEvents.onPickupExitRange += RemovePickupObject;
     }
     private void OnDestroy()
     {
         playerActions.performed -= InteractWithNearestPickupObject;
+        playerEvents.onPickupEnterRange -= AddPickupObject;
+        playerEvents.onPickupExitRange -= RemovePickupObject;
     }
 
     public void AddPickupObject(GameObject pickup)
     {
+        Debug.Log("Add");
         if (pickup == null)
             return;
 
@@ -38,6 +47,7 @@ public class PickUpInteraction : MonoBehaviour
     }
     public void RemovePickupObject(GameObject pickup)
     {
+        Debug.Log("Remove");
         if (pickup == null)
             return;
 

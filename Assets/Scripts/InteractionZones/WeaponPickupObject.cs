@@ -6,6 +6,10 @@ public class WeaponPickupObject : PickupObject
     {
         base.OnTriggerEnter2D(collision);
     }
+    protected override void OnTriggerExit2D(Collider2D collision)
+    {
+        base.OnTriggerExit2D(collision);
+    }
     public override void ShowPrompt()
     {
         base.ShowPrompt();

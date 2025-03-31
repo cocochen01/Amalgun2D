@@ -4,11 +4,18 @@ namespace Amalgun2D.Player
 {
     public class PlayerEventManager : MonoBehaviour
     {
-        public delegate void OnPickupEnterRange();
+        public delegate void OnPickupEnterRange(GameObject? pickupObject);
         public event OnPickupEnterRange? onPickupEnterRange;
-        public void PickupEnterRange()
+        public void PickupEnterRange(GameObject? pickupObject)
         {
-            onPickupEnterRange?.Invoke();
+            onPickupEnterRange?.Invoke(pickupObject);
+        }
+
+        public delegate void OnPickupExitRange(GameObject? pickupObject);
+        public event OnPickupExitRange? onPickupExitRange;
+        public void PickupExitRange(GameObject? pickupObject)
+        {
+            onPickupExitRange?.Invoke(pickupObject);
         }
 
         public delegate void OnWeaponEquip(GameObject? weaponObject);

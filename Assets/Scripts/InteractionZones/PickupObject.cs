@@ -1,3 +1,4 @@
+using Amalgun2D.Player;
 using UnityEngine;
 
 public class PickupObject : MonoBehaviour
@@ -6,14 +7,15 @@ public class PickupObject : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            collider.GetComponent<PickUpInteraction>().AddPickupObject(gameObject);
+            //collider.GetComponent<PickUpInteraction>().AddPickupObject(gameObject);
+            collider.GetComponent<PlayerEventManager>().PickupEnterRange(gameObject);
         }
     }
     protected virtual void OnTriggerExit2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))
         {
-            collider.GetComponent<PickUpInteraction>().RemovePickupObject(gameObject);
+            collider.GetComponent<PlayerEventManager>().PickupExitRange(gameObject);
         }
     }
 
