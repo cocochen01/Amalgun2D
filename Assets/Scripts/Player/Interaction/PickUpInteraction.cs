@@ -7,19 +7,23 @@ using UnityEngine.InputSystem.Interactions;
 public class PickUpInteraction : MonoBehaviour
 {
     // References
-    PlayerInputActions.PlayerActions playerActions;
+    private InputAction playerActions;
+    [SerializeField] private LayerMask pickupMask;
+
+    // Values
+    public float DetectionRadius = 2f;
 
     [SerializeField] private List<GameObject> nearPickups = new List<GameObject>();
     public GameObject currNearestPickup;
 
     private void Start()
     {
-        playerActions = InputManager.Instance.PlayerActions;
-        playerActions.Interact.performed += InteractWithNearestPickupObject;
+        playerActions = GetComponent<PlayerInput>().actions["Interact"];
+        playerActions.performed += InteractWithNearestPickupObject;
     }
     private void OnDestroy()
     {
-        playerActions.Interact.performed -= InteractWithNearestPickupObject;
+        playerActions.performed -= InteractWithNearestPickupObject;
     }
 
     public void AddPickupObject(GameObject pickup)
@@ -27,7 +31,7 @@ public class PickUpInteraction : MonoBehaviour
         if (pickup == null)
             return;
 
-        if (pickup.GetComponent<Pickup>() != null && !nearPickups.Contains(pickup))
+        if (pickup.GetComponent<PickupObject>() != null && !nearPickups.Contains(pickup))
         {
             nearPickups.Add(pickup);
         }
@@ -45,6 +49,9 @@ public class PickUpInteraction : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //Collider2D[] pickups = Physics2D.OverlapCircleAll(transform.position, detectionRadius, pickupLayer);
+
+        List<GameObject> newPickups = new List<GameObject>();
         UpdatePrompt();
     }
 
@@ -54,7 +61,7 @@ public class PickUpInteraction : MonoBehaviour
         {
             if (currNearestPickup != null)
             {
-                currNearestPickup.GetComponent<Pickup>().HidePrompt();
+                currNearestPickup.GetComponent<PickupObject>().HidePrompt();
                 currNearestPickup = null;
             }
             return;
@@ -76,12 +83,12 @@ public class PickUpInteraction : MonoBehaviour
         if (currNearestPickup == null)
         {
             currNearestPickup = nearestPickup;
-            currNearestPickup.GetComponent<Pickup>().ShowPrompt();
+            currNearestPickup.GetComponent<PickupObject>().ShowPrompt();
         }
         else if (nearestPickup != currNearestPickup)
         {
-            currNearestPickup.GetComponent<Pickup>().HidePrompt();
-            nearestPickup.GetComponent<Pickup>().ShowPrompt();
+            currNearestPickup.GetComponent<PickupObject>().HidePrompt();
+            nearestPickup.GetComponent<PickupObject>().ShowPrompt();
             currNearestPickup = nearestPickup;
         }
     }

@@ -8,3 +8,6 @@ Set up branches
 avoid lambda functions if you might need to unsubscribe from an event
 playerActions.Attack.performed += AttackWithWeapon;
 normal weapons fire on performed, charge weapons should fire on canceled
+
+3-30-25
+Make sure the first child of player is Direction

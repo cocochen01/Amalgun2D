@@ -3,10 +3,10 @@
 /// </summary>
 /// <typeparam name="T">Event type</typeparam>
 #nullable enable
-public abstract class FWEvent<T> where T : FWEvent<T>
+public abstract class FWStaticEvent<T> where T : FWStaticEvent<T>
 {
     public delegate void OnEvent(T e);
-    public event OnEvent? Handler;
+    public static event OnEvent? Handler;
 
     public void Invoke()
     {

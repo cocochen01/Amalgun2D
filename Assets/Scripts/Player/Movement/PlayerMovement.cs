@@ -1,5 +1,6 @@
 using UnityEngine;
 using Amalgun2D.Core;
+using UnityEngine.InputSystem;
 
 namespace Amalgun2D.Player
 {
@@ -7,6 +8,7 @@ namespace Amalgun2D.Player
 	{
 		private Vector2 movementInput;
 		private Rigidbody2D rigidBody;
+        private PlayerInput playerInput;
 
         [SerializeField]
         private Vector2 externalForce;
@@ -20,14 +22,14 @@ namespace Amalgun2D.Player
             rigidBody = GetComponent<Rigidbody2D>();
             if (rigidBody == null)
                 Debug.LogWarning("Rigidbody component not found.");
+            playerInput = GetComponent<PlayerInput>();
         }
 
         private void Start()
         {
-            InputManager input = InputManager.Instance;
-            PlayerInputActions.PlayerActions playerActions = input.PlayerActions;
-            playerActions.Move.performed += context => movementInput = context.ReadValue<Vector2>();
-            playerActions.Move.canceled += context => movementInput = context.ReadValue<Vector2>();
+            InputAction playerActions = playerInput.actions["Move"];
+            playerActions.performed += context => movementInput = context.ReadValue<Vector2>();
+            playerActions.canceled += context => movementInput = context.ReadValue<Vector2>();
         }
 
         private void FixedUpdate()

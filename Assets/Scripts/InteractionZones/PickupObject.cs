@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Pickup : MonoBehaviour
+public class PickupObject : MonoBehaviour
 {
     protected virtual void OnTriggerEnter2D(Collider2D collider)
     {

@@ -1,16 +1,12 @@
+using Cinemachine;
 using UnityEngine;
-
-public class PlayerCharacter : MonoBehaviour
+namespace Amalgun2D.Player
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class PlayerCharacter : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public GameObject player;
+        public Camera playerCamera;
+        public CinemachineVirtualCamera virtualCamera;
+        public PlayerEventManager PlayerEvents;
     }
 }

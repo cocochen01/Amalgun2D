@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PickUpWeapon : Pickup
+public class WeaponPickupObject : PickupObject
 {
     protected override void OnTriggerEnter2D(Collider2D collision)
     {

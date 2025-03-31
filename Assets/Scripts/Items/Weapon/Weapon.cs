@@ -1,4 +1,5 @@
 using Amalgun2D.Core;
+using Amalgun2D.Player;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,7 +8,7 @@ public abstract class Weapon : MonoBehaviour
     // References
     protected GameManager gm;
     public readonly WeaponData weaponData;
-    PlayerInputActions.PlayerActions playerActions;
+    private InputAction playerActions;
 
     // Flags
     [SerializeField] protected bool bTryAttacking = false;
@@ -20,19 +21,19 @@ public abstract class Weapon : MonoBehaviour
     protected virtual void Start()
     {
         gm = GameManager.Instance;
-        playerActions = InputManager.Instance.PlayerActions;
     }
     protected virtual void Equip(PlayerCharacter player)
     {
         if (player == null)
             return;
-        playerActions.Attack.performed += PerformedAttack;
-        playerActions.Attack.canceled += StopAttack;
+        playerActions = player.GetComponent<PlayerInput>().actions["Attack"];
+        playerActions.performed += PerformedAttack;
+        playerActions.canceled += StopAttack;
     }
     protected virtual void Unequip()
     {
-        playerActions.Attack.performed -= PerformedAttack;
-        playerActions.Attack.canceled -= StopAttack;
+        playerActions.performed -= PerformedAttack;
+        playerActions.canceled -= StopAttack;
     }
     protected virtual void FixedUpdate()
     {
