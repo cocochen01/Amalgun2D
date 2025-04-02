@@ -7,7 +7,6 @@ public class Gun : Weapon
     // References
     protected FireBullet fireBulletScript;
     public GunData gunData;
-    //public override WeaponData weaponData => gunData;
     protected override void Start()
     {
         base.Start();

@@ -18,10 +18,10 @@ MonoBehaviour:
   chargeTime: 0
   winddownTime: 0
   recoilMultiplier: 10
-  fireRate: 0.2
+  fireRate: 0.8
   turnSpeed: 10
   visionRange: 15
   bulletData: {fileID: 11400000, guid: da2e76c301e3d5b4788acec28b3c1c67, type: 2}
   magazineSize: 10
   spreadAngle: 0
-  bounceNum: 0
+  bounceNum: 4

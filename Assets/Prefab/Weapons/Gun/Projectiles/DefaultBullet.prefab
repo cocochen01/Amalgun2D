@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2229202991403770093}
   - component: {fileID: 5555516203951501176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullet_Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 5516041307982932809}
   - component: {fileID: 5598692889852695325}
   - component: {fileID: -3966371257379810713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DefaultBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,8 +147,8 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!58 &5598692889852695325
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -179,12 +179,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Radius: 0.7
 --- !u!114 &-3966371257379810713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +197,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62b244573643a7842849afc4603c1cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bounceCount: 0

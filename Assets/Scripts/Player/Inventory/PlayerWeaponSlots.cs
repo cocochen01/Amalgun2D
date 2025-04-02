@@ -11,11 +11,6 @@ namespace Amalgun2D.Player
         [SerializeField] private List<Weapon> weaponsList = new List<Weapon>();
         private Weapon selectedWeapon;
 
-        private void OnEnable()
-        {
-            
-        }
-
         public void AddWeapon(Weapon weapon)
         {
             if(weaponsList.Count == 0)

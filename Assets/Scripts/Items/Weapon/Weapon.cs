@@ -8,7 +8,6 @@ public abstract class Weapon : MonoBehaviour
     // References
     public PlayerCharacter owningPlayer = null;
     private InputAction playerActions;
-    //public abstract WeaponData weaponData { get; }
 
     // Flags
     [SerializeField] protected bool bTryAttacking = false;
@@ -16,7 +15,7 @@ public abstract class Weapon : MonoBehaviour
 
     // Timers
     [SerializeField] protected float inputBufferTimer;
-    [SerializeField] protected float attackCDTimer = 0; //set in attack
+    [SerializeField] protected float attackCDTimer;
 
     protected virtual void Start()
     {

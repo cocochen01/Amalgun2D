@@ -13,9 +13,13 @@ public class Bullet : MonoBehaviour
     public int bounceCount;
 
     private ObjectPool<Bullet> bulletPool;
+
+    private void Awake()
+    {
+        GetComponent<CircleCollider2D>().radius = bulletData.bulletSize / 2f;
+    }
     public void Initialize(BulletData _bulletData, Vector2 _position, Vector2 _direction, int bounce)
     {
-        Debug.Log("Initalize");
         transform.position = _position;
         direction = _direction;
         bounceCount = bounce;
@@ -37,19 +41,24 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        //Destroy(gameObject, bulletData.bulletLifetime);
-
         elapsedTime = 0f;
-
-        rb.linearVelocity = direction * bulletData.speedCurve.Evaluate(0);
+        rb.linearVelocity = bulletData.enableCustomSpeedCurve? direction * bulletData.speedCurve.Evaluate(0) : direction;
         transform.localScale = new Vector3(bulletData.bulletSize, bulletData.bulletSize, 1f);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.GetComponent<IBulletInteraction>() != null)
+        if (collision.collider.GetComponent<IBulletInteraction>() != null)
         {
-            bulletPool.Release(this);
+            if (bounceCount > 0)
+            {
+                direction = Vector2.Reflect(direction, collision.GetContact(0).normal);
+                bounceCount--;
+            }
+            else
+            {
+                bulletPool.Release(this);
+            }
         }
     }
 
