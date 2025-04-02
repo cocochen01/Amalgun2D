@@ -6,13 +6,11 @@ public class Gun : Weapon
 {
     // References
     protected FireBullet fireBulletScript;
-
-    [SerializeField] private GunData gunData;
-
+    public GunData gunData;
+    //public override WeaponData weaponData => gunData;
     protected override void Start()
     {
         base.Start();
-        weaponData = gunData;
         fireBulletScript = GetComponent<FireBullet>();
     }
     protected override void FixedUpdate()
@@ -24,7 +22,7 @@ public class Gun : Weapon
     public override void Equip(PlayerCharacter player)
     {
         base.Equip(player);
-        //player.GetComponent<PlayerEventManager>().WeaponEquip(gunData);
+        player.GetComponent<PlayerEventManager>().WeaponEquip(gunData);
     }
     protected override void Attack()
     {
@@ -33,7 +31,7 @@ public class Gun : Weapon
         attackCDTimer = Mathf.Max(gunData.fireRate, GlobalValuesData.globalAttackCD);
         if (owningPlayer && fireBulletScript)
         {
-            fireBulletScript.SpawnBullet(owningPlayer.player, transform.GetChild(0), gunData.recoilMultiplier);
+            fireBulletScript.SpawnBullet(owningPlayer, transform.GetChild(1), gunData);
         }
         else
         {

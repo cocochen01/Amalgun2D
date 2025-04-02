@@ -21,7 +21,7 @@ namespace Amalgun2D.Player
 
         // Default Values
         private float defaultTurnSpeed = 10f;
-        private float defaultMaxOffset = 2f;
+        private float defaultMaxOffset = 8f;
         private float defaultOrthoLensSize = 8f;
         private float orthoLensLerpSpeed = 6f;
         private float cameraStretchFactor = .3f;

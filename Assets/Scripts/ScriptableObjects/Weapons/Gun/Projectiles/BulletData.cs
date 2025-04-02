@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletData : ScriptableObject
 {
     public string bulletName;
-    public GameObject bulletPrefab;
+    public Bullet bulletPrefab;
 
     [Header("Base")]
     public float bulletMass = .05f;

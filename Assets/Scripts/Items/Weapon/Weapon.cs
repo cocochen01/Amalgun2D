@@ -7,8 +7,8 @@ public abstract class Weapon : MonoBehaviour
 {
     // References
     public PlayerCharacter owningPlayer = null;
-    public WeaponData weaponData;
     private InputAction playerActions;
+    //public abstract WeaponData weaponData { get; }
 
     // Flags
     [SerializeField] protected bool bTryAttacking = false;
@@ -23,15 +23,15 @@ public abstract class Weapon : MonoBehaviour
     }
     public virtual void Equip(PlayerCharacter player)
     {
-        Debug.Log("Equip funtionc");
+        //Debug.Log("Equip function");
         if (player == null)
             return;
-        Debug.Log("Player is not null");
+        //Debug.Log("Player is not null");
         owningPlayer = player;
         playerActions = player.GetComponent<PlayerInput>().actions["Attack"];
         playerActions.performed += PerformedAttack;
         playerActions.canceled += StopAttack;
-        player.GetComponent<PlayerEventManager>().WeaponEquip(weaponData);
+        //player.GetComponent<PlayerEventManager>().WeaponEquip(weaponData);
     }
     public virtual void Unequip()
     {

@@ -13,6 +13,4 @@ public abstract class WeaponData : ScriptableObject
     // Used to modify PlayerAiming
     public float turnSpeed = 10f;
     public float visionRange = 8f;
-    public abstract int magazineSize { get; }
-    public abstract float spreadAngle { get; }
 }

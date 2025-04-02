@@ -205,6 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d541d8492a48cf74bb3897f253ea4627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owningPlayer: {fileID: 0}
   bTryAttacking: 0
   bCanAttack: 1
   inputBufferTimer: 0
@@ -222,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 645792682096bc946b1d10af014c03a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletData: {fileID: 11400000, guid: da2e76c301e3d5b4788acec28b3c1c67, type: 2}
+  bulletData: {fileID: 0}
 --- !u!114 &7145431025559723016
 MonoBehaviour:
   m_ObjectHideFlags: 0

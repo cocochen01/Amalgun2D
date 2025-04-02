@@ -38,7 +38,7 @@ namespace Amalgun2D.Player
 
         public void AddPickupObject(GameObject pickup)
         {
-            Debug.Log("Add");
+            //Debug.Log("Add");
             if (pickup == null)
                 return;
 
@@ -49,7 +49,7 @@ namespace Amalgun2D.Player
         }
         public void RemovePickupObject(GameObject pickup)
         {
-            Debug.Log("Remove");
+            //Debug.Log("Remove");
             if (pickup == null)
                 return;
 

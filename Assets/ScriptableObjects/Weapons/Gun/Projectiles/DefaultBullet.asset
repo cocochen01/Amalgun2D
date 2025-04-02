@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DefaultBullet
   m_EditorClassIdentifier: 
   bulletName: DefaultBullet
-  bulletPrefab: {fileID: 8802237333055511547, guid: 6bdfd33f52c49a649b257c60b81eb98f, type: 3}
+  bulletPrefab: {fileID: -3966371257379810713, guid: 6bdfd33f52c49a649b257c60b81eb98f, type: 3}
   bulletMass: 0.02
   bulletLifetime: 1
   bulletSize: 0.2
