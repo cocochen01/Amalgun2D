@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01f5d32d298c79341a2256962345d233, type: 3}
-  m_Name: DefaultGun
+  m_Name: LargeGun
   m_EditorClassIdentifier: 
   weaponType: 0
-  weaponName: DefaultGun
+  weaponName: LargeGun
   damage: 1
-  chargeTime: 0
-  winddownTime: 0
-  recoilMultiplier: 10
-  fireRate: 0.8
-  turnSpeed: 10
-  visionRange: 15
-  bulletData: {fileID: 11400000, guid: da2e76c301e3d5b4788acec28b3c1c67, type: 2}
+  chargeTime: 1
+  winddownTime: 0.5
+  recoilMultiplier: 1
+  fireRate: 1
+  turnSpeed: 5
+  visionRange: 10
+  bulletData: {fileID: 11400000, guid: 0f699b7d413bd6e4490ca3b1e390f3e6, type: 2}
   magazineSize: 10
   spreadAngle: 0
-  bounceNum: 4
+  bounceNum: 1

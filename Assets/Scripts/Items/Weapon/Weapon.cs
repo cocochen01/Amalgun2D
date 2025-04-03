@@ -22,7 +22,7 @@ public abstract class Weapon : MonoBehaviour
     }
     public virtual void Equip(PlayerCharacter player)
     {
-        //Debug.Log("Equip function");
+        Debug.Log("Equip function" + gameObject.name);
         if (player == null)
             return;
         //Debug.Log("Player is not null");

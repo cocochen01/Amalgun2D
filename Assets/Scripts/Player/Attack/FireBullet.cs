@@ -17,7 +17,6 @@ namespace Amalgun2D.Attacks
         //public ObjectPool<Bullet> playerBulletPool;
         private void Start()
         {
-            gunData = GetComponent<Gun>().gunData;
             if (gunData.bulletData == null)
             {
                 Debug.LogWarning("BulletData is null.");
@@ -27,18 +26,18 @@ namespace Amalgun2D.Attacks
             {
                 Debug.LogWarning("BulletData prefab is null");
             }
-            if (BulletObjectPoolManager.Instance.playerBulletPool == null)
-            {
-                BulletObjectPoolManager.Instance.playerBulletPool = new ObjectPool<Bullet>(CreateBullet, OnTakeBulletFromPool, OnReturnBulletToPool, OnDestroyBullet, true, 500, 2000);
-            }
-            bulletPool = BulletObjectPoolManager.Instance.playerBulletPool;
+            gunData = GetComponent<Gun>().gunData;
+
+            bulletPool = new ObjectPool<Bullet>(CreateBullet, OnTakeBulletFromPool, OnReturnBulletToPool, OnDestroyBullet, true, 500, 2000);
             
             impulseSource = GetComponent<CinemachineImpulseSource>();
         }
 
         public void SpawnBullet(PlayerCharacter owningPlayer, Transform direction, GunData newGunData)
         {
+            Debug.Log("Attack" + gameObject.name + ", " + newGunData.weaponName);
             gunData = newGunData;
+            Debug.Log("Set to " + gunData.weaponName);
             if (gunData == null)
             {
                 Debug.LogWarning("BulletData is null.");
@@ -70,6 +69,7 @@ namespace Amalgun2D.Attacks
 
         private Bullet CreateBullet()
         {
+            Debug.Log("Create bullet from: " + gunData.weaponName + ", in " + gameObject.name);
             Bullet bullet = Instantiate(gunData.bulletData.bulletPrefab, transform.position, Quaternion.identity);
             bullet.SetPool(bulletPool);
             bullet.transform.SetParent(BulletObjectPoolManager.Instance.transform);
@@ -77,6 +77,7 @@ namespace Amalgun2D.Attacks
         }
         private void OnTakeBulletFromPool(Bullet bullet)
         {
+            Debug.Log("Get bullet from: " + gunData.weaponName + ", in " + gameObject.name);
             bullet.gameObject.SetActive(true);
             bullet.Initialize(gunData.bulletData, transform.position, transform.right, gunData.bounceNum);
         }
@@ -88,6 +89,11 @@ namespace Amalgun2D.Attacks
         private void OnDestroyBullet(Bullet bullet)
         {
             Destroy(bullet.gameObject);
+        }
+
+        private void OnDestroy()
+        {
+            bulletPool.Clear();
         }
     } 
 }

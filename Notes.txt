@@ -15,3 +15,7 @@ Make sure the first child of player is Direction
 4-1-25
 Dont forget to change input manager so that input is managed entirely in playerinput instead?
 Use collision layer matrix
+
+4-2-25
+When guns are too big, there might be a range between player and where the bullet spawns that doesn't hit enemies, account for this?
+Make sure bullets dont spawn in walls
