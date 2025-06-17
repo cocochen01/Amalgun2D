@@ -198,3 +198,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceCount: 0
+  circleCollider: {fileID: 5598692889852695325}

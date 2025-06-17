@@ -13,10 +13,10 @@ public class Bullet : MonoBehaviour
     public int bounceCount;
 
     private ObjectPool<Bullet> bulletPool;
+    [SerializeField] private CircleCollider2D circleCollider;
 
-    private void Awake()
+    private void Start()
     {
-        GetComponent<CircleCollider2D>().radius = bulletData.bulletSize / 2f;
     }
     public void Initialize(BulletData _bulletData, Vector2 _position, Vector2 _direction, int bounce)
     {
@@ -27,6 +27,7 @@ public class Bullet : MonoBehaviour
         {
             bulletData = _bulletData;
         }
+        circleCollider.radius = bulletData.bulletSize / 2f;
         rb = GetComponent<Rigidbody2D>();
         if (bulletData.bulletPrefab == null)
         {

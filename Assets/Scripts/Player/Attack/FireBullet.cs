@@ -13,8 +13,6 @@ namespace Amalgun2D.Attacks
         private CinemachineImpulseSource impulseSource;
 
         private ObjectPool<Bullet> bulletPool;
-
-        //public ObjectPool<Bullet> playerBulletPool;
         private void Start()
         {
             if (gunData.bulletData == null)
@@ -88,6 +86,10 @@ namespace Amalgun2D.Attacks
         }
         private void OnDestroyBullet(Bullet bullet)
         {
+            if (bullet == null)
+            {
+                return;
+            }
             Destroy(bullet.gameObject);
         }
 
