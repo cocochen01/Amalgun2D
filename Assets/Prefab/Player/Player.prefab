@@ -280,7 +280,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7395961333507487840}
-  - component: {fileID: 4133972547249974639}
   m_Layer: 12
   m_Name: WeaponAttachPoint
   m_TagString: Untagged
@@ -303,20 +302,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5302176197451346414}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4133972547249974639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2781659213204468414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 652c5b00781f3614e92afad89e1ee0c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WeaponsAttachPoint: {fileID: 0}
-  weaponsList: []
 --- !u!1 &3076264992101421603
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +773,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: eb73f5a2-93fa-49d6-9641-ea1f9feb49c0
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 09b5b384-d035-4cda-8cfe-7ac08714c751
+    m_ActionName: 'Player/Swap[/Mouse/scroll]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
@@ -853,5 +842,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 652c5b00781f3614e92afad89e1ee0c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerActions:
+    m_Name: Player Actions
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 64beedcd-9fab-4a0d-a38c-664dd37b806b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   WeaponsAttachPoint: {fileID: 7395961333507487840}
   weaponsList: []
