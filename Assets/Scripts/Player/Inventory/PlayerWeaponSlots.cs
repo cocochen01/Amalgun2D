@@ -7,6 +7,13 @@ namespace Amalgun2D.Player
 {
     public class PlayerWeaponSlots : MonoBehaviour
     {
+        // Input buffer
+        [SerializeField] private float scrollBufferTime = 0.2f;
+        [SerializeField] private float swapCooldownTime = 0.5f;
+        private float scrollBufferTimer = 0f;
+        private float swapCDTimer = 0f;
+        private int scrollDirectionBuffered = 0;
+
         // References
         private InputAction playerActions;
         public Transform WeaponsAttachPoint;
@@ -23,6 +30,25 @@ namespace Amalgun2D.Player
         {
             if (playerActions != null)
                 playerActions.performed -= OnScroll;
+        }
+        private void Update()
+        {
+            if (swapCDTimer > 0)
+                swapCDTimer -= Time.deltaTime;
+
+            if (scrollBufferTimer > 0)
+            {
+                scrollBufferTimer -= Time.deltaTime;
+
+                if (swapCDTimer <= 0 && scrollDirectionBuffered != 0)
+                {
+                    SwapMainWeapon(scrollDirectionBuffered);
+
+                    scrollBufferTimer = 0f;
+                    swapCDTimer = swapCooldownTime;
+                    scrollDirectionBuffered = 0;
+                }
+            }
         }
 
         public void AddWeapon(Weapon weapon)
@@ -49,15 +75,16 @@ namespace Amalgun2D.Player
 
             if (scroll.y > 0) // scroll up
             {
-                Debug.Log("Scroll up");
-                SwapMainWeapon(1);
+                scrollDirectionBuffered = 1;
+                scrollBufferTimer = scrollBufferTime;
             }
             else if (scroll.y < 0) // scroll down
             {
-                Debug.Log("Scroll down");
-                SwapMainWeapon(-1);
+                scrollDirectionBuffered = -1;
+                scrollBufferTimer = scrollBufferTime;
             }
         }
+
         public void SwapMainWeapon(int scrollDirection)
         {
             if (weaponsList.Count == 0) return;
@@ -65,11 +92,10 @@ namespace Amalgun2D.Player
             int currentIndex = weaponsList.IndexOf(selectedWeapon);
             int newIndex = (currentIndex + scrollDirection + weaponsList.Count) % weaponsList.Count;
 
-            selectedWeapon.UnassignPlayer();
+            selectedWeapon?.UnassignPlayer();
             selectedWeapon = weaponsList[newIndex];
             selectedWeapon.AssignPlayer(GetComponent<PlayerCharacter>());
         }
-
 
         private void EquipHelper(Weapon weapon)
         {
