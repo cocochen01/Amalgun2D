@@ -18,9 +18,9 @@ public class Gun : Weapon
         base.FixedUpdate();
     }
 
-    public override void Equip(PlayerCharacter player)
+    public override void AssignPlayer(PlayerCharacter player)
     {
-        base.Equip(player);
+        base.AssignPlayer(player);
         player.GetComponent<PlayerEventManager>().WeaponEquip(gunData);
     }
     protected override void Attack()

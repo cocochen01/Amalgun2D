@@ -20,7 +20,7 @@ public abstract class Weapon : MonoBehaviour
     protected virtual void Start()
     {
     }
-    public virtual void Equip(PlayerCharacter player)
+    public virtual void AssignPlayer(PlayerCharacter player)
     {
         Debug.Log("Equip function" + gameObject.name);
         if (player == null)
@@ -32,7 +32,7 @@ public abstract class Weapon : MonoBehaviour
         playerActions.canceled += StopAttack;
         //player.GetComponent<PlayerEventManager>().WeaponEquip(weaponData);
     }
-    public virtual void Unequip()
+    public virtual void UnassignPlayer()
     {
         owningPlayer = null;
         playerActions.performed -= PerformedAttack;

@@ -26,7 +26,12 @@ namespace Amalgun2D.Player
         {
             EquipHelper(weapon);
             selectedWeapon = weapon;
-            weapon.Equip(GetComponent<PlayerCharacter>());
+            weapon.AssignPlayer(GetComponent<PlayerCharacter>());
+        }
+
+        public void SwapMainWeapon()
+        {
+
         }
 
         private void EquipHelper(Weapon weapon)
