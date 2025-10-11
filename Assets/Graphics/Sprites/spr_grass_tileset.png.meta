@@ -1,0 +1,4965 @@
+fileFormatVersion: 2
+guid: 1d88eaccaab622c4ab98631f790ee0d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1869145807677025515
+    second: spr_grass_tileset_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: floor_grass_TL
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac379930f0d52a644a89fbc61b7e9a11
+      internalID: 772616792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_T_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a48be4a65cbb742a73c6ff20b48a87
+      internalID: -474088810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_T_02
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7c6bad5dc8a7d4083c9fee8c47d862
+      internalID: 21608696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_TR
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963df711ff6509b44b7fbd44c5b02bed
+      internalID: 1277867202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1936d6d555811bc4f97e20d2c2df2a33
+      internalID: -321089625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaf151d07431944c9376bde9028e1e4
+      internalID: 1143352382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dbff107bdcecc419a16ff328aaabdf
+      internalID: 1962021361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1703b286097d446a6656c345c9bbd7
+      internalID: -1506829037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5c6d7cf18faac4c99d09dbe475cf62
+      internalID: 75444584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_L_01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe7d8db6aca084081ca7d794a8e611
+      internalID: -1448505797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218be56c569075f4d9a3b431749aeb05
+      internalID: 1272540033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_02
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ef4ab3fca720a47b3503cec69e1693
+      internalID: -1949252566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_R_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37c0184b099e9b44b5f69d1ae3d637c
+      internalID: -876080902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_TR
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a323cce59d0d1b44977882a5f4e73d0
+      internalID: -631129871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_TL
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf790645ad1efd4a99c0f2346ad6e52
+      internalID: -908828389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_100
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b124b9553dd64888a175c1c853abc
+      internalID: 1465363889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f375e57aa5c7d9499bd0984cd68b901
+      internalID: 2130484636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a032ea1328711c8478847b6cd8166974
+      internalID: -870878250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a806c178c907de6488d117b885d9ece1
+      internalID: -1322057874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_L_02
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6633c4247cae5e64693558e51102a80b
+      internalID: -272830090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_03
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f0d912f56ff784e82217206b53fc05
+      internalID: 2077722135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_04
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c693798becb7947ba2323fddc7782f
+      internalID: 269737378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_R_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a852d8da0800d4094c93753b463826
+      internalID: -2053766833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_R
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d90b9bec5e5753499547ac965e979be
+      internalID: 550623679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_L
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb95bbaa8a901a449fe86458ea41589
+      internalID: -1584736953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_130
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a68f517b8b034b87148ef15fa203a
+      internalID: 896699086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de613ac5f396c0479cd2a2072e551d1
+      internalID: -1233733377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_132
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b872e8bfcf44644096cf7690920915b
+      internalID: 356397423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa9647037e9938498a2144a5d88bf57
+      internalID: 1738445635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_BL
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881aa0fd0b5add34589cc900cc1d47f9
+      internalID: 1937632917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_B_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a51e930696d054db5e3ae0ade4b4ed
+      internalID: -1214486937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_B_02
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c1231f719fb6d46a0763327df59621
+      internalID: 1350448077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_BR
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700b3b02bca9b5d4f816a0eded78c1fd
+      internalID: 39018381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_corner_TR
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf21904c324ae743af3dfb1cf05442d
+      internalID: 1110528204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_B_01
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1743fb790b6fe44b4342714bbc6067
+      internalID: 1299540665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_B_02
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed83dc409a3c3b4ab3727b1cc3ec635
+      internalID: -1484062755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_shade_corner_TL
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff4debbddff0bf4db223230d6222aa5
+      internalID: -1448288585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_160
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3368abee666b7b7408360e8a1d7700d1
+      internalID: -1065858616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_161
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e4a980702569c4d9853b901a0796e0
+      internalID: 719599822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_162
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec29b27438c790a41a7bf0510b4f382a
+      internalID: -1037840480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_163
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3471050310d2080419a34e7c0a2b514d
+      internalID: 1238931475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_ITL
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effa7811f57e5a34e834ba0fcffb29d1
+      internalID: -1738505197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_ITR
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5588b044bfc48eb41b6d6c7e254b2314
+      internalID: -175115867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d564727ccdfe763429c2c7d2aee37d4a
+      internalID: -965308547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9bcad1f8c7cd74e8bee51437fd5aca
+      internalID: 257234120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_TL
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc2cdf1ca8d564458119d3d34a8fa26
+      internalID: -1945022705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_T
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bba3cf1d8bb5ac4393c7b22516e99b0
+      internalID: 1236156038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_TR
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f353c78af14e246903d7893ab1cff1
+      internalID: -1674473068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_190
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090ce48f90bd7394f94baee7e71a0acc
+      internalID: -268889684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_191
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3deb531085e4d41a1117223adcf655
+      internalID: 994169154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_192
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb04d86856ae84ab800899ea5b9b8d
+      internalID: -699295068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_193
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a3095bf956324ba721febf539f491
+      internalID: -794110613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ce69a56d74d1945b3836dc0c277275
+      internalID: 125190520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_ITL
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ea42ae0d46114ab0b7724d2259935
+      internalID: 2112312566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_ITR
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5e82ccac51874c800d9d7281583b9
+      internalID: -478027781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_s
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562258db21fb2f04990f9154f1e2f0f6
+      internalID: 1220987305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_sh
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ae15ad5fe2c3f46bddca6a6ece64de
+      internalID: -1340461723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_L
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfe161cd81e5fa43a35d72e79b4751d
+      internalID: -1816652569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_R
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e9e2aca619204eb7f62824848f551
+      internalID: -1400017507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_220
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2f5e60e70d4214da162ad170bab7c0
+      internalID: -1947788029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_224
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c01c3b0c63544488dd6ea3706a1093
+      internalID: -501032696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_dirt_01
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a52d3b7a5732d449b3c39194ba0e03
+      internalID: -1611696508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_dirt_02
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7e15389031ae94aab332eb407b67b0
+      internalID: 67085692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_BL
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10baf2d0ea7d9d47968c9a582865d66
+      internalID: 235618562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_B
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a47279dd0bf448b527675ac89bf93
+      internalID: -503826446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_BR
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079230a3134f2a44896a7dd73a0b01e2
+      internalID: 1691924402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_250
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028254e19220cee4c800b8432e36eb14
+      internalID: 1510234823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_254
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f36939859f7594ea4fffd04cf7b339
+      internalID: 655325231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_IBL
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94510f97e9be14cbc46000b9c7fb70
+      internalID: -1288760788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass_IBR
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425f8fa3593572742b463d02afa510ea
+      internalID: 942572809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_dirt_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c917c0dfbf7538c4eadc76fbafd33218
+      internalID: -1750076101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_dirt_04
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e73f2f35254da543922d8a225766099
+      internalID: 485289278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_280
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbeb8e447546c344a464f49211da012
+      internalID: 1320279930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_281
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010d996546e952643a1599d1fc0d0a7d
+      internalID: -740797036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_282
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc377e8012c274b912e5597ced387b
+      internalID: 1249197653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_283
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47c9ba629b82d2459d65abec5acf667
+      internalID: -4237964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_284
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5a64927006e7e4db889cd3a218180a
+      internalID: -957470504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_IBL
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c95cd91a4a9d1f47960de79f9698a44
+      internalID: 1029907854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_grass-dirt_IBR
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d11b7ebc3edee43b99c36ffcbf9457
+      internalID: 1803927920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_360
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568c45ddab9f4944ea234fa1b7cdc36a
+      internalID: 415761222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_363
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72085eb45975b824b9a43d3f2047ccfb
+      internalID: -1237972821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_364
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e817c60a7cbce9848b5e72e06578872d
+      internalID: -973521257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_365
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324c653f8a58f8c4dbd7e8ac5a69ecbb
+      internalID: -1800069085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_366
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f1a291f989a554da8f3e8dca8302a6
+      internalID: 1277719948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_367
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54b65f59d437e24b9b1e00bdb7a73b4
+      internalID: -724587092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_368
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0b9c08da45f4f419000a5af1127e50
+      internalID: -414979808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_369
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd5d12a0ba8ace46a68c586e1a9eb83
+      internalID: -165931303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_370
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8aecaaf7a965446a4e1561ac0aab74
+      internalID: -1082293193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_371
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a218b57f83666428e8cb41dda2f6aa
+      internalID: 855387666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_372
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cde7f73c0cf41d4295d77079cd7562f
+      internalID: -127777209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_373
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f01f4aec592a604d89d30f378b44ed3
+      internalID: -2092681315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_374
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220b5881863fe5c48bffb93fe0c86b5a
+      internalID: 687936228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_375
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0e698ce8632604a94b393832b42ec5
+      internalID: -574297881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_376
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2253bb1c4b5e044eb8646819821dc65
+      internalID: -1910433151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_377
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4f023ec6b5cdf4db6a48be1ac56c6d
+      internalID: 1594131904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_378
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b0750e112896745b0a28d074b65403
+      internalID: 1822540641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_379
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e696de6cae8364c94842755db94e95
+      internalID: -842870207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_390
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a3edd0ac6602c41984eeb3e63b858d
+      internalID: 1431719662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_393
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fb2a2ce7d350f4b8eceeda3fd8b37e
+      internalID: -2041029136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_394
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54a88b2f20df9f428ede7551e492113
+      internalID: -1515733747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_398
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168a5cdcd40ebeb4c95bd5610ee1abbe
+      internalID: 399215084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_399
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d97e6ccfba5774da837d3b7a9b0cfb
+      internalID: 1891336209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_400
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72ab76298c29a343b6a82df98d25922
+      internalID: 110579459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_401
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eef840fca11e254682c7cf5aae30918
+      internalID: -88752019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_402
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5266b6b9a8c1bb747aa834c6c8cf516f
+      internalID: -813293660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_403
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e43a2b26c424504da7a43d5b76e23c1
+      internalID: -1339716379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_404
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2362b6658ed6ad4398b4763701780e9
+      internalID: -1305204657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_405
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d270257df75c94b9f606cfd5be5b75
+      internalID: -1596363887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_406
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6926893de4f2d4ebb21ecc10bbca45
+      internalID: -147642457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_407
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f2b25a89a133b4799d7c0749cc4df6
+      internalID: -256711002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_408
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8b8922b67588045a7e88960bc7f223
+      internalID: -717730913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_409
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05fc46ca23d1c3488e8d73250f4e290
+      internalID: 1174905147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_420
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a954bd9a90fe764c9db06b585eb6b13
+      internalID: -1029753549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_423
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfffe713aa45cf4fa609b38b983ccdd
+      internalID: 1168953280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_424
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb878fe1c62aa584998cefd96a17b76f
+      internalID: 1071692675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_428
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158196f0f23ae445b9c1485d3a3beab
+      internalID: 127475499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_431
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b632fd88b60ead84f9c2ee6ad69138cd
+      internalID: -46223422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_432
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae008aeef1e9874690f25a303651694
+      internalID: -1704852203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_433
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8ab1e02f4a95649b9059ff290b8d04
+      internalID: -1138582255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_434
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5469d4ba553ec9143a0097233b28ed39
+      internalID: -1953826680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_435
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f5b488f6113604eb0f4a38925681f2
+      internalID: 849186257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_436
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7345ac60bd1a6ae458e7274042f02c68
+      internalID: -356650891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_437
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99180a8ad99df445b4c5ceaebabdb16
+      internalID: -1841345830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_438
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a076102874ae3640aff0ad3c72c215b
+      internalID: 314519428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_439
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad9eb2696340b479ff58b9dc2dde3a
+      internalID: 1447063464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_450
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f807990cec5677f47b4d859e336a363d
+      internalID: -946341067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_451
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ff7ca71fb249b4199006096102334f
+      internalID: -1846485881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_452
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aed7b2e541d404a947145dbd81985b
+      internalID: 939557837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_453
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaf759b43f66b849a717ddd7f476bc9
+      internalID: 1422972935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_459
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67caa34738b155f44a023ff6f2c5bb05
+      internalID: 1235854326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_460
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b320db13cb29f2847b0a7212752c0b22
+      internalID: -1601358393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_461
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d711ebd9b3e542badf01fa3b0a6d3
+      internalID: -1845840474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_462
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21d74456f1c254458b1cbfee2514082
+      internalID: -602974422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_463
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6798a4c7eb1d2e42b64d1cbc0ffc197
+      internalID: -1454652453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_464
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352c61055999c244b9adf7d50bfe1eb2
+      internalID: -857542755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_465
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed34ba9f84f4144fa2325cd41b6ff45
+      internalID: -1850131210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_466
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581ff69ecb1b6754685483832d176421
+      internalID: -164135679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_467
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b37d0889cba5bb4a9386a7545cc372a
+      internalID: 1881978915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_468
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f47ac3fea8c754fa7ffbb6f9124b42
+      internalID: 2082938505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_469
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c0c9cc4e7257f4e86835faaaf07afe
+      internalID: 555093772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_666
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ecfa703f8541740967462ba7717e42
+      internalID: 864070019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_667
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3aaecad5fe9d54fbdb520a7412ce99
+      internalID: -1365808076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_668
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67888918e7e8cee4199c7445d43d144b
+      internalID: -1093943792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_669
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaf226fcd80ed34c89e4ad0db44425d
+      internalID: 809034176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_670
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c64d4da9dc99843b2e170dd4026da5
+      internalID: 2137440321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_687
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b1bba2fa63fb44abecc068b5d62ab
+      internalID: 682722660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_688
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1f7c9a17614be428a58e438ed3dadf
+      internalID: 1109065602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_695
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de6c545a6c010e4883f988b4c3e97a7
+      internalID: 731530851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_696
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098e9e102fd5b8446a03d4db504d71ec
+      internalID: 2065743593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_697
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f18712558ab10c4cb937e939e7cec0d
+      internalID: 71900788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_698
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b86afaf6cff9c74a82df608b2828fdb
+      internalID: 335048358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_715
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d257af4cdbaf8f448a1de52ca949950f
+      internalID: 606383942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_722
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b613526c26474e8a499ab4dc9a30b
+      internalID: 319150753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_723
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cb608d805172144a714646180be426
+      internalID: 250560673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_724
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a188cc017248b44eb51374be792d88e
+      internalID: -1100408728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_725
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a4ec3b501d9a49b9de47dbcce70a8
+      internalID: -783561719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_726
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37f047fc7b9158488bb9bb902abad17
+      internalID: 968382639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_727
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eebc28a0bd9af42ac917734797df06
+      internalID: -32782272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_728
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976c6b52425007f4b97397dc6add290a
+      internalID: 2032632376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_752
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd80c33b6cc0c6948add6cf667c7113f
+      internalID: 1714653247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_753
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf47f3ff63d3a1a4ab699baf3dea45f0
+      internalID: 482020027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_757
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c7aa04bf510f24d9babe7976b28d35
+      internalID: 616853819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_758
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eedaac763cec84d9234787d267837a
+      internalID: -1757938971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_780
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768295798cc0d5a49b3739b17cffe3db
+      internalID: -1401871151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fd87adfb6423e469eb96aa7f352c1b
+      internalID: -1869145807677025515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0204e6c333abd1e45b30b50c3be1e1b0
+      internalID: 676771803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f0542353e8fff42ac7f6bc32043715
+      internalID: -1845636380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8c8bf17ad571e448c5c97b92cc614b
+      internalID: -2093763091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26d3833165e584294dd10516e97ac4
+      internalID: -725132904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c618224055d2dc947bb9dc0539c0b1b7
+      internalID: 257051433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b118f17eb04f3044e8ad4fd081055848
+      internalID: -374449446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac4aff824bd52f4ca725ee3a7a4a83f
+      internalID: -233932360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4745efbeb79a914197c38a079a6fd9a
+      internalID: -2059401486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9566b00f6b4d6489ebed6cac6c0928
+      internalID: 1447577219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ccf452066890446bb7f53ad4e06ee9
+      internalID: 1016902466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d4a29a6b1eb1045b7cd1901c20eab8
+      internalID: -1381840872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b5ba41ccebad740970dc067e1da52f
+      internalID: -332318266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092447de70017f4fb8b3308ab1c8ef3
+      internalID: 856678203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e527c24790de14483ba736b6487f9e
+      internalID: -1496432996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ea939515dcaa8418974402e13b9391
+      internalID: -1748942477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_grass_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5ce87bb76c386478b97ae684ca71d6
+      internalID: -361795383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4df23ea4679b41c45855fd1923e782f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      floor_dirt_01: -1611696508
+      floor_dirt_02: 67085692
+      floor_dirt_03: -1750076101
+      floor_dirt_04: 485289278
+      floor_grass-dirt_B: -503826446
+      floor_grass-dirt_BL: 235618562
+      floor_grass-dirt_BR: 1691924402
+      floor_grass-dirt_IBL: 1029907854
+      floor_grass-dirt_IBR: 1803927920
+      floor_grass-dirt_ITL: 2112312566
+      floor_grass-dirt_ITR: -478027781
+      floor_grass-dirt_L: -1816652569
+      floor_grass-dirt_R: -1400017507
+      floor_grass-dirt_T: 1236156038
+      floor_grass-dirt_TL: -1945022705
+      floor_grass-dirt_TR: -1674473068
+      floor_grass_: 257234120
+      floor_grass_0: -965308547
+      floor_grass_01: 1272540033
+      floor_grass_02: -1949252566
+      floor_grass_03: 2077722135
+      floor_grass_04: 269737378
+      floor_grass_BL: 1937632917
+      floor_grass_BR: 39018381
+      floor_grass_B_01: -1214486937
+      floor_grass_B_02: 1350448077
+      floor_grass_IBL: -1288760788
+      floor_grass_IBR: 942572809
+      floor_grass_ITL: -1738505197
+      floor_grass_ITR: -175115867
+      floor_grass_L_01: -1448505797
+      floor_grass_L_02: -272830090
+      floor_grass_R_01: -876080902
+      floor_grass_R_02: -2053766833
+      floor_grass_TL: 772616792
+      floor_grass_TR: 1277867202
+      floor_grass_T_01: -474088810
+      floor_grass_T_02: 21608696
+      floor_grass_s: 1220987305
+      floor_grass_sh: -1340461723
+      floor_grass_shade: -321089625
+      floor_grass_shade_B_01: 1299540665
+      floor_grass_shade_B_02: -1484062755
+      floor_grass_shade_L: -1584736953
+      floor_grass_shade_R: 550623679
+      floor_grass_shade_TL: -908828389
+      floor_grass_shade_TR: -631129871
+      floor_grass_shade_corner_TL: -1448288585
+      floor_grass_shade_corner_TR: 1110528204
+      spr_grass_tileset_0: -1869145807677025515
+      spr_grass_tileset_1: 676771803
+      spr_grass_tileset_10: 1016902466
+      spr_grass_tileset_100: 1465363889
+      spr_grass_tileset_101: 2130484636
+      spr_grass_tileset_102: -870878250
+      spr_grass_tileset_103: -1322057874
+      spr_grass_tileset_104: 753760256
+      spr_grass_tileset_105: -761082681
+      spr_grass_tileset_106: 1110698492
+      spr_grass_tileset_107: -1396864328
+      spr_grass_tileset_108: -467907072
+      spr_grass_tileset_109: 1360389033
+      spr_grass_tileset_11: -1381840872
+      spr_grass_tileset_110: 586619373
+      spr_grass_tileset_111: 776288994
+      spr_grass_tileset_112: 632242784
+      spr_grass_tileset_113: 800438762
+      spr_grass_tileset_114: -298933647
+      spr_grass_tileset_115: 579221253
+      spr_grass_tileset_116: 2055656499
+      spr_grass_tileset_117: -467967773
+      spr_grass_tileset_118: -1662969839
+      spr_grass_tileset_119: -1580536549
+      spr_grass_tileset_12: -332318266
+      spr_grass_tileset_124: 591038340
+      spr_grass_tileset_126: -1810882469
+      spr_grass_tileset_127: 1984212324
+      spr_grass_tileset_129: 1032933951
+      spr_grass_tileset_13: 856678203
+      spr_grass_tileset_130: 896699086
+      spr_grass_tileset_131: -1233733377
+      spr_grass_tileset_132: 356397423
+      spr_grass_tileset_133: 1738445635
+      spr_grass_tileset_134: -2048014516
+      spr_grass_tileset_135: -895682047
+      spr_grass_tileset_136: 1794410334
+      spr_grass_tileset_137: 872391312
+      spr_grass_tileset_138: -1967658445
+      spr_grass_tileset_139: -919300792
+      spr_grass_tileset_14: -1496432996
+      spr_grass_tileset_140: 1399349523
+      spr_grass_tileset_141: -563501630
+      spr_grass_tileset_142: -28444020
+      spr_grass_tileset_143: -234891969
+      spr_grass_tileset_144: -180496603
+      spr_grass_tileset_145: -2085313438
+      spr_grass_tileset_146: 1666148242
+      spr_grass_tileset_147: -671006773
+      spr_grass_tileset_148: -442814268
+      spr_grass_tileset_149: -13857501
+      spr_grass_tileset_15: -1748942477
+      spr_grass_tileset_154: 1091061163
+      spr_grass_tileset_159: 134548660
+      spr_grass_tileset_16: -361795383
+      spr_grass_tileset_160: -1065858616
+      spr_grass_tileset_161: 719599822
+      spr_grass_tileset_162: -1037840480
+      spr_grass_tileset_163: 1238931475
+      spr_grass_tileset_164: 1203237300
+      spr_grass_tileset_165: -554479450
+      spr_grass_tileset_166: 539525593
+      spr_grass_tileset_167: 1306195901
+      spr_grass_tileset_168: 184301171
+      spr_grass_tileset_169: 353645942
+      spr_grass_tileset_17: -689140601
+      spr_grass_tileset_170: 1268180847
+      spr_grass_tileset_171: 1459547956
+      spr_grass_tileset_172: -2014100291
+      spr_grass_tileset_173: -1863747254
+      spr_grass_tileset_174: -948305190
+      spr_grass_tileset_175: -248909022
+      spr_grass_tileset_176: 761825817
+      spr_grass_tileset_177: -1848547301
+      spr_grass_tileset_178: -1218130797
+      spr_grass_tileset_179: -599089034
+      spr_grass_tileset_18: -1094216099
+      spr_grass_tileset_181: -125602140
+      spr_grass_tileset_182: 2116886307
+      spr_grass_tileset_183: -263285044
+      spr_grass_tileset_19: 1190097508
+      spr_grass_tileset_190: -268889684
+      spr_grass_tileset_191: 994169154
+      spr_grass_tileset_192: -699295068
+      spr_grass_tileset_193: -794110613
+      spr_grass_tileset_194: 125190520
+      spr_grass_tileset_196: -429274771
+      spr_grass_tileset_197: -1177949030
+      spr_grass_tileset_199: 153821837
+      spr_grass_tileset_2: -1845636380
+      spr_grass_tileset_20: 1378441092
+      spr_grass_tileset_200: 649152621
+      spr_grass_tileset_201: -1779327581
+      spr_grass_tileset_202: -871483995
+      spr_grass_tileset_203: -309911528
+      spr_grass_tileset_204: 1158964463
+      spr_grass_tileset_205: 1220740519
+      spr_grass_tileset_206: 23275209
+      spr_grass_tileset_207: 821480646
+      spr_grass_tileset_208: 860284682
+      spr_grass_tileset_209: -1466384392
+      spr_grass_tileset_21: -1532765535
+      spr_grass_tileset_210: 180207851
+      spr_grass_tileset_211: 196994056
+      spr_grass_tileset_212: 430941559
+      spr_grass_tileset_213: 291713209
+      spr_grass_tileset_214: 1740311246
+      spr_grass_tileset_218: -145283770
+      spr_grass_tileset_22: -1573516417
+      spr_grass_tileset_220: -1947788029
+      spr_grass_tileset_221: -617495973
+      spr_grass_tileset_222: 825986176
+      spr_grass_tileset_223: 622481372
+      spr_grass_tileset_224: -501032696
+      spr_grass_tileset_225: 263197298
+      spr_grass_tileset_226: 320689614
+      spr_grass_tileset_227: -387066778
+      spr_grass_tileset_228: 2008109670
+      spr_grass_tileset_229: 552793419
+      spr_grass_tileset_23: 64943922
+      spr_grass_tileset_230: -138693324
+      spr_grass_tileset_231: -404047674
+      spr_grass_tileset_232: -1475007461
+      spr_grass_tileset_233: 1648638116
+      spr_grass_tileset_234: 645385459
+      spr_grass_tileset_235: -415289245
+      spr_grass_tileset_236: 1104472112
+      spr_grass_tileset_237: 909300996
+      spr_grass_tileset_238: 1438638129
+      spr_grass_tileset_239: 290987607
+      spr_grass_tileset_24: 767725957
+      spr_grass_tileset_240: -304319356
+      spr_grass_tileset_241: -182676902
+      spr_grass_tileset_242: -1564077684
+      spr_grass_tileset_243: 303869277
+      spr_grass_tileset_244: -230106230
+      spr_grass_tileset_25: -726137948
+      spr_grass_tileset_250: 1510234823
+      spr_grass_tileset_251: 1441000342
+      spr_grass_tileset_252: 1007275869
+      spr_grass_tileset_253: 988097718
+      spr_grass_tileset_254: 655325231
+      spr_grass_tileset_255: -857393438
+      spr_grass_tileset_256: 1426686564
+      spr_grass_tileset_257: 690001587
+      spr_grass_tileset_258: 1439140066
+      spr_grass_tileset_259: -133151065
+      spr_grass_tileset_26: 1932016579
+      spr_grass_tileset_260: -1691952515
+      spr_grass_tileset_261: 1654419713
+      spr_grass_tileset_262: -1822638525
+      spr_grass_tileset_263: -1436462991
+      spr_grass_tileset_264: -1708367603
+      spr_grass_tileset_265: -293117842
+      spr_grass_tileset_266: 4742380
+      spr_grass_tileset_267: -38983298
+      spr_grass_tileset_268: -33611116
+      spr_grass_tileset_269: -1867447764
+      spr_grass_tileset_27: -1856256909
+      spr_grass_tileset_271: -1651711490
+      spr_grass_tileset_272: -1084777905
+      spr_grass_tileset_273: 811952395
+      spr_grass_tileset_277: 710750651
+      spr_grass_tileset_278: -1816568355
+      spr_grass_tileset_279: 305581374
+      spr_grass_tileset_28: 1116969579
+      spr_grass_tileset_280: 1320279930
+      spr_grass_tileset_281: -740797036
+      spr_grass_tileset_282: 1249197653
+      spr_grass_tileset_283: -4237964
+      spr_grass_tileset_284: -957470504
+      spr_grass_tileset_286: -890850366
+      spr_grass_tileset_287: 855588767
+      spr_grass_tileset_289: -1238870568
+      spr_grass_tileset_29: -1938049983
+      spr_grass_tileset_290: -147729711
+      spr_grass_tileset_291: 1613261762
+      spr_grass_tileset_292: 1752458682
+      spr_grass_tileset_293: 63821103
+      spr_grass_tileset_294: -850733073
+      spr_grass_tileset_295: -1972869633
+      spr_grass_tileset_296: 305787316
+      spr_grass_tileset_297: -549155362
+      spr_grass_tileset_298: -101449403
+      spr_grass_tileset_299: -575474114
+      spr_grass_tileset_3: -2093763091
+      spr_grass_tileset_30: 2097706027
+      spr_grass_tileset_300: 822731608
+      spr_grass_tileset_301: 300799460
+      spr_grass_tileset_302: -2072383976
+      spr_grass_tileset_303: 1171100135
+      spr_grass_tileset_304: 1328266828
+      spr_grass_tileset_305: 2081446081
+      spr_grass_tileset_306: 1394740154
+      spr_grass_tileset_307: -2056540098
+      spr_grass_tileset_308: -544856539
+      spr_grass_tileset_309: -1552587083
+      spr_grass_tileset_31: -2058512922
+      spr_grass_tileset_310: -2026106597
+      spr_grass_tileset_311: 135847787
+      spr_grass_tileset_312: -921334510
+      spr_grass_tileset_313: -514419862
+      spr_grass_tileset_314: -254254238
+      spr_grass_tileset_315: -242458887
+      spr_grass_tileset_316: -1178920716
+      spr_grass_tileset_317: -669618155
+      spr_grass_tileset_318: 1064628324
+      spr_grass_tileset_319: -599528370
+      spr_grass_tileset_32: 852821017
+      spr_grass_tileset_320: -1351901928
+      spr_grass_tileset_321: 1072162699
+      spr_grass_tileset_322: -1168063333
+      spr_grass_tileset_323: -416102817
+      spr_grass_tileset_324: 375023186
+      spr_grass_tileset_325: 777388911
+      spr_grass_tileset_326: 1870754845
+      spr_grass_tileset_327: -1416469278
+      spr_grass_tileset_328: 777088716
+      spr_grass_tileset_329: -763085717
+      spr_grass_tileset_33: -1542122153
+      spr_grass_tileset_330: -47029163
+      spr_grass_tileset_331: 392304263
+      spr_grass_tileset_332: -2118710159
+      spr_grass_tileset_333: -2070822685
+      spr_grass_tileset_334: -1076058668
+      spr_grass_tileset_335: 1414987173
+      spr_grass_tileset_336: 550820141
+      spr_grass_tileset_337: 1622930796
+      spr_grass_tileset_338: -283979004
+      spr_grass_tileset_339: -230860533
+      spr_grass_tileset_34: -1549550039
+      spr_grass_tileset_340: -571332676
+      spr_grass_tileset_341: -299694968
+      spr_grass_tileset_342: 1511315845
+      spr_grass_tileset_343: -1622232667
+      spr_grass_tileset_344: -187596656
+      spr_grass_tileset_345: 314464303
+      spr_grass_tileset_346: -1014893158
+      spr_grass_tileset_347: -1765973001
+      spr_grass_tileset_348: 1219113362
+      spr_grass_tileset_349: -1445157001
+      spr_grass_tileset_35: 2047392727
+      spr_grass_tileset_350: -790957697
+      spr_grass_tileset_351: 636422534
+      spr_grass_tileset_352: 401583784
+      spr_grass_tileset_353: -981233533
+      spr_grass_tileset_354: -1501349980
+      spr_grass_tileset_355: -1530874563
+      spr_grass_tileset_356: -2009804617
+      spr_grass_tileset_357: -981603748
+      spr_grass_tileset_358: 1635782047
+      spr_grass_tileset_359: 2124357912
+      spr_grass_tileset_36: 1752225699
+      spr_grass_tileset_360: 415761222
+      spr_grass_tileset_361: -1365582620
+      spr_grass_tileset_362: 1028565086
+      spr_grass_tileset_363: -1237972821
+      spr_grass_tileset_364: -973521257
+      spr_grass_tileset_365: -1800069085
+      spr_grass_tileset_366: 1277719948
+      spr_grass_tileset_367: -724587092
+      spr_grass_tileset_368: -414979808
+      spr_grass_tileset_369: -165931303
+      spr_grass_tileset_37: -188224735
+      spr_grass_tileset_370: -1082293193
+      spr_grass_tileset_371: 855387666
+      spr_grass_tileset_372: -127777209
+      spr_grass_tileset_373: -2092681315
+      spr_grass_tileset_374: 687936228
+      spr_grass_tileset_375: -574297881
+      spr_grass_tileset_376: -1910433151
+      spr_grass_tileset_377: 1594131904
+      spr_grass_tileset_378: 1822540641
+      spr_grass_tileset_379: -842870207
+      spr_grass_tileset_38: -1166594206
+      spr_grass_tileset_380: -414041346
+      spr_grass_tileset_381: 1682070657
+      spr_grass_tileset_382: 57237757
+      spr_grass_tileset_383: 1997055292
+      spr_grass_tileset_384: -230070953
+      spr_grass_tileset_385: -819190774
+      spr_grass_tileset_386: -876067159
+      spr_grass_tileset_387: -448833101
+      spr_grass_tileset_388: -2072610123
+      spr_grass_tileset_389: -326317454
+      spr_grass_tileset_39: -807968077
+      spr_grass_tileset_390: 1431719662
+      spr_grass_tileset_391: 147176824
+      spr_grass_tileset_392: 144572380
+      spr_grass_tileset_393: -2041029136
+      spr_grass_tileset_394: -1515733747
+      spr_grass_tileset_395: -458900759
+      spr_grass_tileset_396: 2058184396
+      spr_grass_tileset_397: -1060083029
+      spr_grass_tileset_398: 399215084
+      spr_grass_tileset_399: 1891336209
+      spr_grass_tileset_4: -725132904
+      spr_grass_tileset_40: 479110340
+      spr_grass_tileset_400: 110579459
+      spr_grass_tileset_401: -88752019
+      spr_grass_tileset_402: -813293660
+      spr_grass_tileset_403: -1339716379
+      spr_grass_tileset_404: -1305204657
+      spr_grass_tileset_405: -1596363887
+      spr_grass_tileset_406: -147642457
+      spr_grass_tileset_407: -256711002
+      spr_grass_tileset_408: -717730913
+      spr_grass_tileset_409: 1174905147
+      spr_grass_tileset_41: -267040988
+      spr_grass_tileset_410: -849653137
+      spr_grass_tileset_411: 355525378
+      spr_grass_tileset_412: -490633619
+      spr_grass_tileset_413: -164792044
+      spr_grass_tileset_414: 1782377243
+      spr_grass_tileset_415: -836005267
+      spr_grass_tileset_416: 801439501
+      spr_grass_tileset_417: -1179180199
+      spr_grass_tileset_418: 1851448834
+      spr_grass_tileset_419: 571425101
+      spr_grass_tileset_42: -734833404
+      spr_grass_tileset_420: -1029753549
+      spr_grass_tileset_421: 194433826
+      spr_grass_tileset_422: -1080310114
+      spr_grass_tileset_423: 1168953280
+      spr_grass_tileset_424: 1071692675
+      spr_grass_tileset_425: 1236603709
+      spr_grass_tileset_426: -215324911
+      spr_grass_tileset_427: -1400667490
+      spr_grass_tileset_428: 127475499
+      spr_grass_tileset_429: -270091318
+      spr_grass_tileset_43: 1410010531
+      spr_grass_tileset_430: 1298836136
+      spr_grass_tileset_431: -46223422
+      spr_grass_tileset_432: -1704852203
+      spr_grass_tileset_433: -1138582255
+      spr_grass_tileset_434: -1953826680
+      spr_grass_tileset_435: 849186257
+      spr_grass_tileset_436: -356650891
+      spr_grass_tileset_437: -1841345830
+      spr_grass_tileset_438: 314519428
+      spr_grass_tileset_439: 1447063464
+      spr_grass_tileset_44: -1811660506
+      spr_grass_tileset_440: -1042694885
+      spr_grass_tileset_441: 1482633708
+      spr_grass_tileset_442: -1774532328
+      spr_grass_tileset_443: -1867765383
+      spr_grass_tileset_444: -1657238818
+      spr_grass_tileset_445: -925573732
+      spr_grass_tileset_446: 667074832
+      spr_grass_tileset_447: 611402909
+      spr_grass_tileset_448: -1088032577
+      spr_grass_tileset_449: -1669326193
+      spr_grass_tileset_45: 1406198912
+      spr_grass_tileset_450: -946341067
+      spr_grass_tileset_451: -1846485881
+      spr_grass_tileset_452: 939557837
+      spr_grass_tileset_453: 1422972935
+      spr_grass_tileset_454: 2074653793
+      spr_grass_tileset_455: -457828370
+      spr_grass_tileset_456: 554305146
+      spr_grass_tileset_457: -2108124790
+      spr_grass_tileset_458: 1212427882
+      spr_grass_tileset_459: 1235854326
+      spr_grass_tileset_46: -731862370
+      spr_grass_tileset_460: -1601358393
+      spr_grass_tileset_461: -1845840474
+      spr_grass_tileset_462: -602974422
+      spr_grass_tileset_463: -1454652453
+      spr_grass_tileset_464: -857542755
+      spr_grass_tileset_465: -1850131210
+      spr_grass_tileset_466: -164135679
+      spr_grass_tileset_467: 1881978915
+      spr_grass_tileset_468: 2082938505
+      spr_grass_tileset_469: 555093772
+      spr_grass_tileset_47: 70865392
+      spr_grass_tileset_470: 1135819818
+      spr_grass_tileset_471: -527082334
+      spr_grass_tileset_472: 1824886490
+      spr_grass_tileset_473: 42423319
+      spr_grass_tileset_474: 1916424948
+      spr_grass_tileset_475: 1796005202
+      spr_grass_tileset_476: 1090791602
+      spr_grass_tileset_477: -90271968
+      spr_grass_tileset_478: 293733648
+      spr_grass_tileset_479: -233489316
+      spr_grass_tileset_48: 1610013360
+      spr_grass_tileset_480: 1835396661
+      spr_grass_tileset_481: -1135855159
+      spr_grass_tileset_482: -1650191112
+      spr_grass_tileset_483: -101420938
+      spr_grass_tileset_484: 1085809018
+      spr_grass_tileset_485: 174849344
+      spr_grass_tileset_486: 1969825834
+      spr_grass_tileset_487: -213559124
+      spr_grass_tileset_488: 1271953044
+      spr_grass_tileset_489: -1351661849
+      spr_grass_tileset_49: -239278668
+      spr_grass_tileset_490: 386553485
+      spr_grass_tileset_491: 1831328365
+      spr_grass_tileset_492: -115178590
+      spr_grass_tileset_493: -1318062611
+      spr_grass_tileset_494: 127349378
+      spr_grass_tileset_495: 798636044
+      spr_grass_tileset_496: 1693990111
+      spr_grass_tileset_497: 313932859
+      spr_grass_tileset_498: 488583280
+      spr_grass_tileset_499: 1674813024
+      spr_grass_tileset_5: 257051433
+      spr_grass_tileset_50: -1115880311
+      spr_grass_tileset_500: 2053660541
+      spr_grass_tileset_501: 1143889421
+      spr_grass_tileset_502: -333674321
+      spr_grass_tileset_503: 142823046
+      spr_grass_tileset_504: 461647344
+      spr_grass_tileset_505: 489197487
+      spr_grass_tileset_506: -402731331
+      spr_grass_tileset_507: 1189385380
+      spr_grass_tileset_508: 1660991110
+      spr_grass_tileset_509: 1132461179
+      spr_grass_tileset_51: 305581579
+      spr_grass_tileset_510: 1517078128
+      spr_grass_tileset_511: 1363306325
+      spr_grass_tileset_512: 728130988
+      spr_grass_tileset_513: 1724523192
+      spr_grass_tileset_514: -187247512
+      spr_grass_tileset_515: 287467635
+      spr_grass_tileset_516: -878953898
+      spr_grass_tileset_517: -1700498254
+      spr_grass_tileset_518: -691419397
+      spr_grass_tileset_519: 1037823024
+      spr_grass_tileset_52: 422591657
+      spr_grass_tileset_520: 1735409333
+      spr_grass_tileset_521: -1495960253
+      spr_grass_tileset_522: 536366996
+      spr_grass_tileset_523: -956911526
+      spr_grass_tileset_524: 1725313456
+      spr_grass_tileset_525: 570578208
+      spr_grass_tileset_526: 1016250848
+      spr_grass_tileset_527: 2042030918
+      spr_grass_tileset_528: 1708026594
+      spr_grass_tileset_529: -1577350297
+      spr_grass_tileset_53: 670690951
+      spr_grass_tileset_530: -1313626220
+      spr_grass_tileset_531: -212651125
+      spr_grass_tileset_532: -1324934666
+      spr_grass_tileset_533: 306407305
+      spr_grass_tileset_534: -1031822061
+      spr_grass_tileset_535: 1716713962
+      spr_grass_tileset_536: -997438016
+      spr_grass_tileset_537: -1816570057
+      spr_grass_tileset_538: -314985382
+      spr_grass_tileset_539: -1045303292
+      spr_grass_tileset_54: 1305539561
+      spr_grass_tileset_540: -1104901351
+      spr_grass_tileset_541: -1799519689
+      spr_grass_tileset_542: 473057822
+      spr_grass_tileset_543: 502287376
+      spr_grass_tileset_544: 973148854
+      spr_grass_tileset_545: -70528938
+      spr_grass_tileset_546: -2117689144
+      spr_grass_tileset_547: 675462824
+      spr_grass_tileset_548: -1895269369
+      spr_grass_tileset_549: -1133212796
+      spr_grass_tileset_55: 312631891
+      spr_grass_tileset_550: -575253394
+      spr_grass_tileset_551: -36507465
+      spr_grass_tileset_552: -1912366558
+      spr_grass_tileset_553: -1899224226
+      spr_grass_tileset_554: 502967828
+      spr_grass_tileset_555: 2024457897
+      spr_grass_tileset_556: 961655979
+      spr_grass_tileset_557: -19775657
+      spr_grass_tileset_558: -493225706
+      spr_grass_tileset_559: -567426540
+      spr_grass_tileset_56: -857879180
+      spr_grass_tileset_560: 2126679335
+      spr_grass_tileset_561: -1983911492
+      spr_grass_tileset_562: 1302773794
+      spr_grass_tileset_563: -936635688
+      spr_grass_tileset_564: 2045866948
+      spr_grass_tileset_565: -1602096169
+      spr_grass_tileset_566: -998378780
+      spr_grass_tileset_567: -187704363
+      spr_grass_tileset_568: 1975276290
+      spr_grass_tileset_569: -1533213898
+      spr_grass_tileset_57: -1539377477
+      spr_grass_tileset_570: -1508627044
+      spr_grass_tileset_571: 1062383511
+      spr_grass_tileset_572: 1193552926
+      spr_grass_tileset_573: -2031689382
+      spr_grass_tileset_574: 502611595
+      spr_grass_tileset_575: 2146731679
+      spr_grass_tileset_576: 338732745
+      spr_grass_tileset_577: 1253319777
+      spr_grass_tileset_578: 1285410569
+      spr_grass_tileset_579: 1094037432
+      spr_grass_tileset_58: 1228984375
+      spr_grass_tileset_580: -861218381
+      spr_grass_tileset_581: -273663133
+      spr_grass_tileset_582: 1425139051
+      spr_grass_tileset_583: -818571416
+      spr_grass_tileset_584: 385584649
+      spr_grass_tileset_585: 593134139
+      spr_grass_tileset_586: 582446259
+      spr_grass_tileset_587: -31648454
+      spr_grass_tileset_588: -584820576
+      spr_grass_tileset_589: -1863954352
+      spr_grass_tileset_59: 1980711081
+      spr_grass_tileset_590: -1452194935
+      spr_grass_tileset_591: -1065518509
+      spr_grass_tileset_592: -479725968
+      spr_grass_tileset_593: 1676463622
+      spr_grass_tileset_594: -532130325
+      spr_grass_tileset_595: 1918755022
+      spr_grass_tileset_596: 1959673461
+      spr_grass_tileset_597: -2019956129
+      spr_grass_tileset_598: 1097946058
+      spr_grass_tileset_599: -1220740187
+      spr_grass_tileset_6: -374449446
+      spr_grass_tileset_600: 1011701664
+      spr_grass_tileset_601: -1523453051
+      spr_grass_tileset_602: 1584409231
+      spr_grass_tileset_603: 540593722
+      spr_grass_tileset_604: -1270175344
+      spr_grass_tileset_605: 418317726
+      spr_grass_tileset_606: 1068272279
+      spr_grass_tileset_607: -960121103
+      spr_grass_tileset_608: -812547154
+      spr_grass_tileset_609: -2024038732
+      spr_grass_tileset_610: 1237947199
+      spr_grass_tileset_611: 1436305150
+      spr_grass_tileset_612: -1717203768
+      spr_grass_tileset_613: 385539880
+      spr_grass_tileset_614: 286942664
+      spr_grass_tileset_615: 894760078
+      spr_grass_tileset_616: 1304636128
+      spr_grass_tileset_617: 1005413747
+      spr_grass_tileset_618: 1181805705
+      spr_grass_tileset_619: 1220059133
+      spr_grass_tileset_620: -899672199
+      spr_grass_tileset_621: 1242417511
+      spr_grass_tileset_622: -1654188100
+      spr_grass_tileset_623: 333235275
+      spr_grass_tileset_624: -657158712
+      spr_grass_tileset_625: -1604904883
+      spr_grass_tileset_626: 696308398
+      spr_grass_tileset_627: -1439494976
+      spr_grass_tileset_628: -1169617939
+      spr_grass_tileset_629: -236910431
+      spr_grass_tileset_630: -1489505721
+      spr_grass_tileset_631: 1848165726
+      spr_grass_tileset_632: -573432227
+      spr_grass_tileset_633: 486547195
+      spr_grass_tileset_634: -700122635
+      spr_grass_tileset_635: -2074077538
+      spr_grass_tileset_636: 148955038
+      spr_grass_tileset_637: 1901101797
+      spr_grass_tileset_638: 815600929
+      spr_grass_tileset_639: -881965970
+      spr_grass_tileset_640: 453076089
+      spr_grass_tileset_641: -706565340
+      spr_grass_tileset_642: 956563816
+      spr_grass_tileset_643: 2075195799
+      spr_grass_tileset_644: 1509149489
+      spr_grass_tileset_645: 1840421271
+      spr_grass_tileset_646: 2069426802
+      spr_grass_tileset_647: 1115443943
+      spr_grass_tileset_648: 174027623
+      spr_grass_tileset_649: 2110222740
+      spr_grass_tileset_65: -487025965
+      spr_grass_tileset_650: 389682777
+      spr_grass_tileset_651: -102303537
+      spr_grass_tileset_652: -157701885
+      spr_grass_tileset_653: -913602961
+      spr_grass_tileset_654: 1189004406
+      spr_grass_tileset_655: 1584424268
+      spr_grass_tileset_656: -1743754695
+      spr_grass_tileset_657: 1889283780
+      spr_grass_tileset_658: -700200824
+      spr_grass_tileset_659: -830012452
+      spr_grass_tileset_66: -996546672
+      spr_grass_tileset_660: -1818161538
+      spr_grass_tileset_661: 1164028822
+      spr_grass_tileset_662: 1941152167
+      spr_grass_tileset_663: 708734709
+      spr_grass_tileset_664: -249098876
+      spr_grass_tileset_665: 2120207824
+      spr_grass_tileset_666: 864070019
+      spr_grass_tileset_667: -1365808076
+      spr_grass_tileset_668: -1093943792
+      spr_grass_tileset_669: 809034176
+      spr_grass_tileset_67: -1637371768
+      spr_grass_tileset_670: 2137440321
+      spr_grass_tileset_671: 1579801116
+      spr_grass_tileset_672: -1676352767
+      spr_grass_tileset_673: -1142267667
+      spr_grass_tileset_674: 2117168311
+      spr_grass_tileset_675: -1732266501
+      spr_grass_tileset_676: 1002637263
+      spr_grass_tileset_677: -1752284555
+      spr_grass_tileset_678: -2020643494
+      spr_grass_tileset_679: -724068689
+      spr_grass_tileset_68: -1536466913
+      spr_grass_tileset_680: 1172191505
+      spr_grass_tileset_681: 916717456
+      spr_grass_tileset_682: 383853212
+      spr_grass_tileset_683: -2054848398
+      spr_grass_tileset_684: -380916281
+      spr_grass_tileset_685: 1836309850
+      spr_grass_tileset_686: -1420738064
+      spr_grass_tileset_687: 682722660
+      spr_grass_tileset_688: 1109065602
+      spr_grass_tileset_689: 754287053
+      spr_grass_tileset_69: -1479718262
+      spr_grass_tileset_690: 885961978
+      spr_grass_tileset_691: 878687033
+      spr_grass_tileset_692: 1202498921
+      spr_grass_tileset_693: 2028159639
+      spr_grass_tileset_694: -1228027345
+      spr_grass_tileset_695: 731530851
+      spr_grass_tileset_696: 2065743593
+      spr_grass_tileset_697: 71900788
+      spr_grass_tileset_698: 335048358
+      spr_grass_tileset_699: 1973750333
+      spr_grass_tileset_7: -233932360
+      spr_grass_tileset_70: 1143352382
+      spr_grass_tileset_700: -1546753330
+      spr_grass_tileset_701: 1296814157
+      spr_grass_tileset_702: 1515538588
+      spr_grass_tileset_703: -1726335797
+      spr_grass_tileset_704: -2117002194
+      spr_grass_tileset_705: 458280878
+      spr_grass_tileset_706: -1527433274
+      spr_grass_tileset_707: -1137965416
+      spr_grass_tileset_708: -293149624
+      spr_grass_tileset_709: 1311478901
+      spr_grass_tileset_71: 1962021361
+      spr_grass_tileset_710: -275294925
+      spr_grass_tileset_711: -1026707997
+      spr_grass_tileset_712: -1401630119
+      spr_grass_tileset_713: 1927781829
+      spr_grass_tileset_714: 1991661644
+      spr_grass_tileset_715: 606383942
+      spr_grass_tileset_716: -266971550
+      spr_grass_tileset_717: 152226571
+      spr_grass_tileset_718: 903821278
+      spr_grass_tileset_719: -1538998055
+      spr_grass_tileset_72: -1506829037
+      spr_grass_tileset_720: -1007768650
+      spr_grass_tileset_721: 1260588667
+      spr_grass_tileset_722: 319150753
+      spr_grass_tileset_723: 250560673
+      spr_grass_tileset_724: -1100408728
+      spr_grass_tileset_725: -783561719
+      spr_grass_tileset_726: 968382639
+      spr_grass_tileset_727: -32782272
+      spr_grass_tileset_728: 2032632376
+      spr_grass_tileset_729: -538556201
+      spr_grass_tileset_73: 75444584
+      spr_grass_tileset_730: -1815457526
+      spr_grass_tileset_731: 1367910203
+      spr_grass_tileset_732: -2015520923
+      spr_grass_tileset_733: -548492266
+      spr_grass_tileset_734: -886491188
+      spr_grass_tileset_735: 328401596
+      spr_grass_tileset_736: -104347579
+      spr_grass_tileset_737: 76622240
+      spr_grass_tileset_738: 581987204
+      spr_grass_tileset_739: 1221779365
+      spr_grass_tileset_74: 187553336
+      spr_grass_tileset_740: 1718409604
+      spr_grass_tileset_741: 1219572279
+      spr_grass_tileset_742: 2019974903
+      spr_grass_tileset_743: 1582913059
+      spr_grass_tileset_744: -2102515050
+      spr_grass_tileset_745: 1579508586
+      spr_grass_tileset_746: 1669795087
+      spr_grass_tileset_747: -2124839397
+      spr_grass_tileset_748: 814313589
+      spr_grass_tileset_749: -153163694
+      spr_grass_tileset_75: 131819522
+      spr_grass_tileset_750: 1078377282
+      spr_grass_tileset_751: 976487067
+      spr_grass_tileset_752: 1714653247
+      spr_grass_tileset_753: 482020027
+      spr_grass_tileset_754: -1968439124
+      spr_grass_tileset_755: -737180466
+      spr_grass_tileset_756: -1664872092
+      spr_grass_tileset_757: 616853819
+      spr_grass_tileset_758: -1757938971
+      spr_grass_tileset_759: -985585553
+      spr_grass_tileset_76: -1088733475
+      spr_grass_tileset_760: -1397722839
+      spr_grass_tileset_761: 686365350
+      spr_grass_tileset_762: -554840969
+      spr_grass_tileset_763: -375247271
+      spr_grass_tileset_764: -720060008
+      spr_grass_tileset_765: 602140213
+      spr_grass_tileset_766: 1247581770
+      spr_grass_tileset_767: -1841753788
+      spr_grass_tileset_768: -1820933242
+      spr_grass_tileset_769: -457753693
+      spr_grass_tileset_77: 1581873163
+      spr_grass_tileset_770: -1520102929
+      spr_grass_tileset_771: -1175132440
+      spr_grass_tileset_772: 1777565479
+      spr_grass_tileset_773: 659563327
+      spr_grass_tileset_774: -1820880999
+      spr_grass_tileset_775: 933104190
+      spr_grass_tileset_776: 42333545
+      spr_grass_tileset_777: 1739383072
+      spr_grass_tileset_778: -1824507280
+      spr_grass_tileset_779: 439545871
+      spr_grass_tileset_78: 1181213686
+      spr_grass_tileset_780: -1401871151
+      spr_grass_tileset_781: -1893965922
+      spr_grass_tileset_782: -269228873
+      spr_grass_tileset_783: -437202451
+      spr_grass_tileset_784: 721497969
+      spr_grass_tileset_785: -580840722
+      spr_grass_tileset_786: -2113122795
+      spr_grass_tileset_787: 1629621818
+      spr_grass_tileset_788: 1188611036
+      spr_grass_tileset_789: -2125515642
+      spr_grass_tileset_79: 237762012
+      spr_grass_tileset_790: -1588718698
+      spr_grass_tileset_791: -375473513
+      spr_grass_tileset_792: 127412408
+      spr_grass_tileset_793: 1361922824
+      spr_grass_tileset_794: 1593577770
+      spr_grass_tileset_795: 382950944
+      spr_grass_tileset_796: -1838940952
+      spr_grass_tileset_797: 255226244
+      spr_grass_tileset_798: 363431254
+      spr_grass_tileset_799: -439878094
+      spr_grass_tileset_8: -2059401486
+      spr_grass_tileset_80: -1314515770
+      spr_grass_tileset_800: 527861461
+      spr_grass_tileset_801: 1808554089
+      spr_grass_tileset_802: 682772684
+      spr_grass_tileset_803: -1189766325
+      spr_grass_tileset_804: 1983788233
+      spr_grass_tileset_805: 184885586
+      spr_grass_tileset_806: 450394602
+      spr_grass_tileset_807: 1405369810
+      spr_grass_tileset_808: 1090206422
+      spr_grass_tileset_809: -598251707
+      spr_grass_tileset_81: 1263618028
+      spr_grass_tileset_810: -1964358697
+      spr_grass_tileset_811: -1446068415
+      spr_grass_tileset_812: 1691860875
+      spr_grass_tileset_813: 1297851209
+      spr_grass_tileset_814: -1306704766
+      spr_grass_tileset_815: 1288388096
+      spr_grass_tileset_816: -1888400687
+      spr_grass_tileset_817: -1103789785
+      spr_grass_tileset_818: 186147950
+      spr_grass_tileset_819: -1268972729
+      spr_grass_tileset_82: -419093675
+      spr_grass_tileset_820: 314715542
+      spr_grass_tileset_821: 631006864
+      spr_grass_tileset_822: -358197211
+      spr_grass_tileset_823: 182804891
+      spr_grass_tileset_824: 2135551764
+      spr_grass_tileset_825: -859089249
+      spr_grass_tileset_826: 1492387282
+      spr_grass_tileset_827: 1137366109
+      spr_grass_tileset_828: -1131053552
+      spr_grass_tileset_829: -1797796840
+      spr_grass_tileset_83: 873118464
+      spr_grass_tileset_830: 1966351082
+      spr_grass_tileset_831: 1944898609
+      spr_grass_tileset_832: 1793380492
+      spr_grass_tileset_833: 459895319
+      spr_grass_tileset_834: -1210921324
+      spr_grass_tileset_835: 1408353889
+      spr_grass_tileset_836: 487378917
+      spr_grass_tileset_837: 1450365151
+      spr_grass_tileset_838: -628231124
+      spr_grass_tileset_839: 1888928836
+      spr_grass_tileset_84: -380202646
+      spr_grass_tileset_840: -730807435
+      spr_grass_tileset_841: -1673781702
+      spr_grass_tileset_842: 2035021263
+      spr_grass_tileset_843: -1173939738
+      spr_grass_tileset_844: -1162159526
+      spr_grass_tileset_845: 2048508648
+      spr_grass_tileset_846: -819813490
+      spr_grass_tileset_847: -910334120
+      spr_grass_tileset_848: -1992831518
+      spr_grass_tileset_849: -417302600
+      spr_grass_tileset_85: -1508775974
+      spr_grass_tileset_850: 843348570
+      spr_grass_tileset_851: 48224674
+      spr_grass_tileset_852: -972044266
+      spr_grass_tileset_853: -158825088
+      spr_grass_tileset_854: 287685227
+      spr_grass_tileset_855: -1442399577
+      spr_grass_tileset_856: -61311905
+      spr_grass_tileset_857: -1789849887
+      spr_grass_tileset_858: 800577864
+      spr_grass_tileset_859: -1665665697
+      spr_grass_tileset_86: 760031827
+      spr_grass_tileset_860: -920648161
+      spr_grass_tileset_861: -508080777
+      spr_grass_tileset_862: 1520182420
+      spr_grass_tileset_863: 1111369892
+      spr_grass_tileset_87: -1968843590
+      spr_grass_tileset_88: 465725170
+      spr_grass_tileset_89: 2098342207
+      spr_grass_tileset_9: 1447577219
+      spr_grass_tileset_96: -552153624
+      spr_grass_tileset_97: 2133893798
+      spr_grass_tileset_99: 1678116430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
